@@ -1,0 +1,87 @@
+Creating a Use Case Diagram for “HealthHub” - A
+Healthcare Management System
+
+Background:
+
+The city of Greenfield is embarking on a digital transformation journey in its healthcare
+sector with the introduction of "HealthHub,” an innovative healthcare management system.
+This ambitious project aims to integrate various aspects of healthcare services, offering a
+seamless, user-friendly platform for patients, doctors, healthcare administrators, and
+insurance providers.
+
+HealthHub’s mission is to simplify and enhance the healthcare experience through
+technology. It will serve a range of functions from appointment scheduling to managing
+complex medical records, facilitating online consultations, and handling billing and
+insurance processes. This system is expected to cater to a diverse user base with varying
+needs:
+
+e Patients looking for easy access to medical services, appointment bookings, and
+health information.
+
+e Doctors requiring efficient management of patient records, scheduling, and
+telemedicine capabilities.
+
+e Healthcare Administrators overseeing operational aspects like record keeping, staff
+management, and patient service optimization.
+
+e Insurance Providers interfacing with the hospital's billing systems and managing
+claims.
+
+Your Task:
+
+As future software engineers, your task is to develop a detailed use case diagram for
+HealthHub. Your diagram should accurately depict the system’s functionalities and user
+interactions. Your diagram must include:
+
+e Atleast 10 associations (simple connections between actors and use cases).
+
+e A minimum of 2 generalizations (showing hierarchical relationships among actors).
+
+e At least 3 extends (indicating optional use cases that extend the functionality of
+another use case).
+e A minimum of 4 includes (representing a use case that is a mandatory part of
+another use case).
+
+Scenario Overview:
+
+Primary Actors:
+e Patients.
+e Doctors.
+
+e Healthcare Administrators.
+e Insurance Providers.
+Key System Functions:
+e Appointment Scheduling.
+e Medical Record Management.
+e Online Consultations.
+e Prescription Management.
+e Billing and Insurance Processing.
+
+Activity:
+
+Diagram Development:
+e Construct a use case diagram for HealthHub incorporating the specified
+number of associations, generalizations, extends, and includes.
+e Ensure all elements in your diagram are clearly labeled and organized.
+Justification and Explanation:
+e For each type of relation used in your diagram (association, generalization,
+extend, include), provide a rationale for its application.
+
+Definitions of Relation Types:
+
+e Association: A binary relationship between an actor and a use case indicating
+interaction.
+
+e Generalization: A hierarchical relationship where a child actor inherits the role of a
+parent actor.
+
+e Extend: A relationship where a use case adds new behaviors or actions to another use
+case, typically under specific conditions.
+
+e Include: A relationship denoting that one use case is inherently part of another use
+case’s process.
+Deliverable:
+
+e Acomprehensive use case diagram for HealthHub with the required relationships.
+e A document explaining the reasoning behind the application of each relation type in
+your diagram.
