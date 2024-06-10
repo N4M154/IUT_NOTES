@@ -1,0 +1,7 @@
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Printing_Application\obj\Debug\Printing_Application.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Printing_Application\obj\Debug\Printing_Application.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Printing_Application\bin\Debug\Printing_Application.exe.config
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Printing_Application\bin\Debug\Printing_Application.exe
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Printing_Application\bin\Debug\Printing_Application.pdb
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Printing_Application\obj\Debug\Printing_Application.exe
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Printing_Application\obj\Debug\Printing_Application.pdb

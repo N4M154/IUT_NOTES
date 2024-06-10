@@ -1,0 +1,7 @@
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Text-Buffer(aggregation-composition)\bin\Debug\Text-Buffer(aggregation-composition).exe.config
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Text-Buffer(aggregation-composition)\bin\Debug\Text-Buffer(aggregation-composition).exe
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Text-Buffer(aggregation-composition)\bin\Debug\Text-Buffer(aggregation-composition).pdb
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Text-Buffer(aggregation-composition)\obj\Debug\Text-Buffer(aggregation-composition).csproj.AssemblyReference.cache
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Text-Buffer(aggregation-composition)\obj\Debug\Text-Buffer(aggregation-composition).csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Text-Buffer(aggregation-composition)\obj\Debug\Text-Buffer(aggregation-composition).exe
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Text-Buffer(aggregation-composition)\obj\Debug\Text-Buffer(aggregation-composition).pdb

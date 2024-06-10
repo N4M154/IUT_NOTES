@@ -1,0 +1,7 @@
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Conversion_into_c#\bin\Debug\Conversion_into_c#.exe.config
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Conversion_into_c#\bin\Debug\Conversion_into_c#.exe
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Conversion_into_c#\bin\Debug\Conversion_into_c#.pdb
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Conversion_into_c#\obj\Debug\Conversion_into_c#.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Conversion_into_c#\obj\Debug\Conversion_into_c#.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Conversion_into_c#\obj\Debug\Conversion_into_c#.exe
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\2\Conversion_into_c#\Conversion_into_c#\obj\Debug\Conversion_into_c#.pdb
