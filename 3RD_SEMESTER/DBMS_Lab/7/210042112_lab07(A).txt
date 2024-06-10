@@ -1,0 +1,70 @@
+-- create branch table
+create table branch 
+( 
+    Name varchar(100),
+    street varchar(100),
+    city varchar(100),
+    postcode varchar(10),
+    constraint namepk primary key(Name)
+);
+
+-- create employees table
+create table employees 
+(
+    Employee_id int,
+    Name varchar(100),
+    First_name varchar(100),
+    last_name varchar(100),
+    Gender char(1),
+    DOB date,
+    Position varchar(50),
+    Salary decimal(10,2),
+    branchid int,
+    constraint employeeidpk primary key(Employee_id),
+    constraint namefk foreign key (Name) references branch(Name)
+);
+
+-- create client table
+create table client 
+(
+    Client_id int ,
+    First_name varchar(100),
+    Last_name varchar(100),
+    Telephone_no varchar(15),
+    Email varchar(50),
+    Preferred_accommodation varchar(50),
+    Max_rent decimal(10,2),
+    constraint clientidpk primary key(Client_name)
+);
+
+-- create property_owners table
+create table property_owners
+(
+    NID int,
+    First_name varchar(100),
+    Last_name varchar(100),
+    Telephone_no varchar(15),
+    EMail varchar(100),
+    Password varchar(100),
+    constraint nidpk primary key(NID)
+);
+
+-- create property table
+create table property 
+(
+    Property_id int,
+    Street varchar(50),
+    City varchar(50),
+    Postcode varchar(10),
+    Type varchar(20),
+    Available_rooms int,
+    Rent decimal(10,2),
+    dateadded date,
+    Nid int,
+    contactpersonemployeeid int,
+    branchid int,
+    constraint propertyidpk primary key(Property_id),
+    constraint nidfk foreign key (Nid) references Property_owners(NID),
+    constraint employeefk foreign key (contactpersonemployeeid) references employees(Employee_id),
+    constraint brachidfk foreign key (branchid) references branch(Branch_id)
+);

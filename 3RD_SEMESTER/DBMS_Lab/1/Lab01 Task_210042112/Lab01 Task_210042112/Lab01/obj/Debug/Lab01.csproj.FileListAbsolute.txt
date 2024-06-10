@@ -1,0 +1,35 @@
+C:\Users\USER\Documents\PDF\CSE 4308(DMBS lab)\Lab01\Lab01\bin\Debug\Lab01.exe.config
+C:\Users\USER\Documents\PDF\CSE 4308(DMBS lab)\Lab01\Lab01\bin\Debug\Lab01.exe
+C:\Users\USER\Documents\PDF\CSE 4308(DMBS lab)\Lab01\Lab01\bin\Debug\Lab01.pdb
+C:\Users\USER\Documents\PDF\CSE 4308(DMBS lab)\Lab01\Lab01\obj\Debug\Lab01.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\PDF\CSE 4308(DMBS lab)\Lab01\Lab01\obj\Debug\Lab01.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\PDF\CSE 4308(DMBS lab)\Lab01\Lab01\obj\Debug\Lab01.exe
+C:\Users\USER\Documents\PDF\CSE 4308(DMBS lab)\Lab01\Lab01\obj\Debug\Lab01.pdb
+C:\Users\USER\Documents\PDF\CSE 4308(DMBS lab)\Lab01\Lab_01\Lab01\bin\Debug\Lab01.exe.config
+C:\Users\USER\Documents\PDF\CSE 4308(DMBS lab)\Lab01\Lab_01\Lab01\bin\Debug\Lab01.exe
+C:\Users\USER\Documents\PDF\CSE 4308(DMBS lab)\Lab01\Lab_01\Lab01\bin\Debug\Lab01.pdb
+C:\Users\USER\Documents\PDF\CSE 4308(DMBS lab)\Lab01\Lab_01\Lab01\obj\Debug\Lab01.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\PDF\CSE 4308(DMBS lab)\Lab01\Lab_01\Lab01\obj\Debug\Lab01.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\PDF\CSE 4308(DMBS lab)\Lab01\Lab_01\Lab01\obj\Debug\Lab01.exe
+C:\Users\USER\Documents\PDF\CSE 4308(DMBS lab)\Lab01\Lab_01\Lab01\obj\Debug\Lab01.pdb
+C:\Users\USER\Downloads\drive-download-20230817T104029Z-001\Lab01\bin\Debug\Lab01.exe.config
+C:\Users\USER\Downloads\drive-download-20230817T104029Z-001\Lab01\bin\Debug\Lab01.exe
+C:\Users\USER\Downloads\drive-download-20230817T104029Z-001\Lab01\bin\Debug\Lab01.pdb
+C:\Users\USER\Downloads\drive-download-20230817T104029Z-001\Lab01\obj\Debug\Lab01.csproj.AssemblyReference.cache
+C:\Users\USER\Downloads\drive-download-20230817T104029Z-001\Lab01\obj\Debug\Lab01.csproj.CoreCompileInputs.cache
+C:\Users\USER\Downloads\drive-download-20230817T104029Z-001\Lab01\obj\Debug\Lab01.exe
+C:\Users\USER\Downloads\drive-download-20230817T104029Z-001\Lab01\obj\Debug\Lab01.pdb
+C:\Users\USER\Downloads\Lab01 Task_210042112\Lab01\bin\Debug\Lab01.exe.config
+C:\Users\USER\Downloads\Lab01 Task_210042112\Lab01\bin\Debug\Lab01.exe
+C:\Users\USER\Downloads\Lab01 Task_210042112\Lab01\bin\Debug\Lab01.pdb
+C:\Users\USER\Downloads\Lab01 Task_210042112\Lab01\obj\Debug\Lab01.csproj.AssemblyReference.cache
+C:\Users\USER\Downloads\Lab01 Task_210042112\Lab01\obj\Debug\Lab01.csproj.CoreCompileInputs.cache
+C:\Users\USER\Downloads\Lab01 Task_210042112\Lab01\obj\Debug\Lab01.exe
+C:\Users\USER\Downloads\Lab01 Task_210042112\Lab01\obj\Debug\Lab01.pdb
+E:\PDF\DBMS lab\1\Lab01 Task_210042112\Lab01 Task_210042112\Lab01\bin\Debug\Lab01.exe.config
+E:\PDF\DBMS lab\1\Lab01 Task_210042112\Lab01 Task_210042112\Lab01\bin\Debug\Lab01.exe
+E:\PDF\DBMS lab\1\Lab01 Task_210042112\Lab01 Task_210042112\Lab01\bin\Debug\Lab01.pdb
+E:\PDF\DBMS lab\1\Lab01 Task_210042112\Lab01 Task_210042112\Lab01\obj\Debug\Lab01.csproj.AssemblyReference.cache
+E:\PDF\DBMS lab\1\Lab01 Task_210042112\Lab01 Task_210042112\Lab01\obj\Debug\Lab01.csproj.CoreCompileInputs.cache
+E:\PDF\DBMS lab\1\Lab01 Task_210042112\Lab01 Task_210042112\Lab01\obj\Debug\Lab01.exe
+E:\PDF\DBMS lab\1\Lab01 Task_210042112\Lab01 Task_210042112\Lab01\obj\Debug\Lab01.pdb
