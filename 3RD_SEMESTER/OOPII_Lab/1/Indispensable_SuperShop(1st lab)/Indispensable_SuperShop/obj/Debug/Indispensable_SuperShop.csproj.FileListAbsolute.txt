@@ -1,0 +1,7 @@
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\labtasks\1\Indispensable_SuperShop\Indispensable_SuperShop\bin\Debug\Indispensable_SuperShop.exe.config
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\labtasks\1\Indispensable_SuperShop\Indispensable_SuperShop\bin\Debug\Indispensable_SuperShop.exe
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\labtasks\1\Indispensable_SuperShop\Indispensable_SuperShop\bin\Debug\Indispensable_SuperShop.pdb
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\labtasks\1\Indispensable_SuperShop\Indispensable_SuperShop\obj\Debug\Indispensable_SuperShop.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\labtasks\1\Indispensable_SuperShop\Indispensable_SuperShop\obj\Debug\Indispensable_SuperShop.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\labtasks\1\Indispensable_SuperShop\Indispensable_SuperShop\obj\Debug\Indispensable_SuperShop.exe
+C:\Users\USER\Documents\PDF\SWE 4302(OOC ll lab)\labtasks\1\Indispensable_SuperShop\Indispensable_SuperShop\obj\Debug\Indispensable_SuperShop.pdb
