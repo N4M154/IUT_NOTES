@@ -1,0 +1,79 @@
+Configure R1 Interfaces:
+en
+conf t
+int g0/0
+ip add 192.168.1.1 255.255.255.0
+desc connection-to-PC0
+no shutdown 
+exit
+
+int s0/3/0
+ip add 192.168.0.2 255.255.255.252
+desc connection-to-R3
+clock rate 64000
+no shutdown
+exit
+
+int s0/3/1
+ip add 192.168.0.6 255.255.255.252
+desc connection-to-R2
+clock rate 64000
+no shutdown
+exit
+
+
+Configure R2 Interfaces:
+en
+conf t
+int s0/3/0
+ip add 192.168.0.5 255.255.255.252
+desc connection-to-R1
+no shutdown
+exit
+
+int g0/0
+ip add 192.168.2.1 255.255.255.0
+desc connection-to-RemoteLAN
+no shutdown
+exit
+
+
+Configure R3 Interfaces:
+en
+conf t
+int s0/3/0
+ip add 192.168.0.1 255.255.255.252
+desc connection-to-R1
+no shutdown
+exit
+
+int g0/0
+ip add 192.168.2.2 255.255.255.0
+desc connection-to-RemoteLAN
+no shutdown
+exit
+
+
+PCO:
+IP: 192.168.1.10
+Mask: 255.255.255.0
+Gateway: 192.168.1.1
+
+
+PC1:
+IP: 192.168.2.10
+Mask: 255.255.255.0
+Gateway: 192.168.2.1
+
+
+Configure static routing to Remote LAN in R1
+ip route 192.168.2.0 255.255.255.0 s0/3/1
+ip route 192.168.2.0 255.255.255.0 192.168.0.1 5
+
+Configure static routing to Local LAN in R2
+ip route 192.168.1.0 255.255.255.0 s0/3/0
+ip route 192.168.1.0 255.255.255.0 192.168.0.6 5
+
+Configure static routing to Local LAN in R3
+ip route 192.168.1.0 255.255.255.0 s0/3/0
+ip route 192.168.1.0 255.255.255.0 192.168.0.2 5
