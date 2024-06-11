@@ -1,0 +1,14 @@
+C:\Users\USER\Documents\ShapeDrawerApplication\RefactoredShape\bin\Debug\RefactoredShape.exe.config
+C:\Users\USER\Documents\ShapeDrawerApplication\RefactoredShape\bin\Debug\RefactoredShape.exe
+C:\Users\USER\Documents\ShapeDrawerApplication\RefactoredShape\bin\Debug\RefactoredShape.pdb
+C:\Users\USER\Documents\ShapeDrawerApplication\RefactoredShape\obj\Debug\RefactoredShape.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\ShapeDrawerApplication\RefactoredShape\obj\Debug\RefactoredShape.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\ShapeDrawerApplication\RefactoredShape\obj\Debug\RefactoredShape.exe
+C:\Users\USER\Documents\ShapeDrawerApplication\RefactoredShape\obj\Debug\RefactoredShape.pdb
+C:\Users\USER\Documents\PDF\OOPll lab\4\ShapeDrawerApplication\RefactoredShape\bin\Debug\RefactoredShape.exe.config
+C:\Users\USER\Documents\PDF\OOPll lab\4\ShapeDrawerApplication\RefactoredShape\bin\Debug\RefactoredShape.exe
+C:\Users\USER\Documents\PDF\OOPll lab\4\ShapeDrawerApplication\RefactoredShape\bin\Debug\RefactoredShape.pdb
+C:\Users\USER\Documents\PDF\OOPll lab\4\ShapeDrawerApplication\RefactoredShape\obj\Debug\RefactoredShape.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\PDF\OOPll lab\4\ShapeDrawerApplication\RefactoredShape\obj\Debug\RefactoredShape.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\PDF\OOPll lab\4\ShapeDrawerApplication\RefactoredShape\obj\Debug\RefactoredShape.exe
+C:\Users\USER\Documents\PDF\OOPll lab\4\ShapeDrawerApplication\RefactoredShape\obj\Debug\RefactoredShape.pdb
