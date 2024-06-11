@@ -1,0 +1,15 @@
+C:\Users\Dell\Documents\Task01FizzBuzz\AccountManagementSystemTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Dell\Documents\Task01FizzBuzz\AccountManagementSystemTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Dell\Documents\Task01FizzBuzz\AccountManagementSystemTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Dell\Documents\Task01FizzBuzz\AccountManagementSystemTestProject\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\Dell\Documents\Task01FizzBuzz\AccountManagementSystemTestProject\bin\Debug\AccountManagementSystemTestProject.dll
+C:\Users\Dell\Documents\Task01FizzBuzz\AccountManagementSystemTestProject\bin\Debug\AccountManagementSystemTestProject.pdb
+C:\Users\Dell\Documents\Task01FizzBuzz\AccountManagementSystemTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Dell\Documents\Task01FizzBuzz\AccountManagementSystemTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Dell\Documents\Task01FizzBuzz\AccountManagementSystemTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Dell\Documents\Task01FizzBuzz\AccountManagementSystemTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Dell\Documents\Task01FizzBuzz\AccountManagementSystemTestProject\obj\Debug\AccountManagementSystemTestProject.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\Task01FizzBuzz\AccountManagementSystemTestProject\obj\Debug\AccountManagementSystemTestProject.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\Task01FizzBuzz\AccountManagementSystemTestProject\obj\Debug\AccountManagementSystemTestProject.csproj.CopyComplete
+C:\Users\Dell\Documents\Task01FizzBuzz\AccountManagementSystemTestProject\obj\Debug\AccountManagementSystemTestProject.dll
+C:\Users\Dell\Documents\Task01FizzBuzz\AccountManagementSystemTestProject\obj\Debug\AccountManagementSystemTestProject.pdb
