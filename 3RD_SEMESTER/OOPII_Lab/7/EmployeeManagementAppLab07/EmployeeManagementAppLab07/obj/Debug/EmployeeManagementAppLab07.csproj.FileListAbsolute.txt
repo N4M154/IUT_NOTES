@@ -1,0 +1,7 @@
+C:\Users\Dell\Documents\EmployeeManagementAppLab07\EmployeeManagementAppLab07\bin\Debug\EmployeeManagementAppLab07.exe.config
+C:\Users\Dell\Documents\EmployeeManagementAppLab07\EmployeeManagementAppLab07\bin\Debug\EmployeeManagementAppLab07.exe
+C:\Users\Dell\Documents\EmployeeManagementAppLab07\EmployeeManagementAppLab07\bin\Debug\EmployeeManagementAppLab07.pdb
+C:\Users\Dell\Documents\EmployeeManagementAppLab07\EmployeeManagementAppLab07\obj\Debug\EmployeeManagementAppLab07.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\EmployeeManagementAppLab07\EmployeeManagementAppLab07\obj\Debug\EmployeeManagementAppLab07.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\EmployeeManagementAppLab07\EmployeeManagementAppLab07\obj\Debug\EmployeeManagementAppLab07.exe
+C:\Users\Dell\Documents\EmployeeManagementAppLab07\EmployeeManagementAppLab07\obj\Debug\EmployeeManagementAppLab07.pdb
