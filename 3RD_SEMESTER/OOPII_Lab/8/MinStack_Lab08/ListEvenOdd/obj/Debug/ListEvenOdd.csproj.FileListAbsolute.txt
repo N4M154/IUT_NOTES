@@ -1,0 +1,7 @@
+C:\Users\Dell\Documents\MinStack_Lab08\ListEvenOdd\bin\Debug\ListEvenOdd.exe.config
+C:\Users\Dell\Documents\MinStack_Lab08\ListEvenOdd\bin\Debug\ListEvenOdd.exe
+C:\Users\Dell\Documents\MinStack_Lab08\ListEvenOdd\bin\Debug\ListEvenOdd.pdb
+C:\Users\Dell\Documents\MinStack_Lab08\ListEvenOdd\obj\Debug\ListEvenOdd.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\MinStack_Lab08\ListEvenOdd\obj\Debug\ListEvenOdd.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\MinStack_Lab08\ListEvenOdd\obj\Debug\ListEvenOdd.exe
+C:\Users\Dell\Documents\MinStack_Lab08\ListEvenOdd\obj\Debug\ListEvenOdd.pdb

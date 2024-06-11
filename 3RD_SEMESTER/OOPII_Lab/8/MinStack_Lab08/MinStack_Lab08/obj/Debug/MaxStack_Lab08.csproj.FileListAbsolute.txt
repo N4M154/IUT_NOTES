@@ -1,0 +1,7 @@
+C:\Users\Dell\Documents\MinStack_Lab08\MinStack_Lab08\bin\Debug\MinStack_Lab08.exe.config
+C:\Users\Dell\Documents\MinStack_Lab08\MinStack_Lab08\bin\Debug\MinStack_Lab08.exe
+C:\Users\Dell\Documents\MinStack_Lab08\MinStack_Lab08\bin\Debug\MinStack_Lab08.pdb
+C:\Users\Dell\Documents\MinStack_Lab08\MinStack_Lab08\obj\Debug\MaxStack_Lab08.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\MinStack_Lab08\MinStack_Lab08\obj\Debug\MaxStack_Lab08.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\MinStack_Lab08\MinStack_Lab08\obj\Debug\MinStack_Lab08.exe
+C:\Users\Dell\Documents\MinStack_Lab08\MinStack_Lab08\obj\Debug\MinStack_Lab08.pdb
