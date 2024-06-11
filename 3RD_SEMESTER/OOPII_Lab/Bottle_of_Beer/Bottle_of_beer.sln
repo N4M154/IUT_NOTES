@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bottle_of_beer", "Bottle_of_beer\Bottle_of_beer.csproj", "{29C20E3F-D233-4A7B-8853-1D6BE9F292D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bottle_of_beer_test", "Bottle_of_beer_test\Bottle_of_beer_test.csproj", "{290B9EED-C37E-4B90-A9B1-11023277EDE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29C20E3F-D233-4A7B-8853-1D6BE9F292D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C20E3F-D233-4A7B-8853-1D6BE9F292D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C20E3F-D233-4A7B-8853-1D6BE9F292D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C20E3F-D233-4A7B-8853-1D6BE9F292D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{290B9EED-C37E-4B90-A9B1-11023277EDE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290B9EED-C37E-4B90-A9B1-11023277EDE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290B9EED-C37E-4B90-A9B1-11023277EDE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290B9EED-C37E-4B90-A9B1-11023277EDE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3BD1207-C9D6-47A3-B6F3-05FDBAC4505F}
+	EndGlobalSection
+EndGlobal
