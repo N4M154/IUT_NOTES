@@ -1,0 +1,7 @@
+C:\Users\USER\Documents\99_bottles_of_beer\99_bottles_of_beer\bin\Debug\99_bottles_of_beer.exe.config
+C:\Users\USER\Documents\99_bottles_of_beer\99_bottles_of_beer\bin\Debug\99_bottles_of_beer.exe
+C:\Users\USER\Documents\99_bottles_of_beer\99_bottles_of_beer\bin\Debug\99_bottles_of_beer.pdb
+C:\Users\USER\Documents\99_bottles_of_beer\99_bottles_of_beer\obj\Debug\99_bottles_of_beer.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\99_bottles_of_beer\99_bottles_of_beer\obj\Debug\99_bottles_of_beer.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\99_bottles_of_beer\99_bottles_of_beer\obj\Debug\99_bottles_of_beer.exe
+C:\Users\USER\Documents\99_bottles_of_beer\99_bottles_of_beer\obj\Debug\99_bottles_of_beer.pdb
