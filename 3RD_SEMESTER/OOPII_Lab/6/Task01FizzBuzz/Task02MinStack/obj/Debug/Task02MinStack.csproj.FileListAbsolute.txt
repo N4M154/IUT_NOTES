@@ -1,0 +1,7 @@
+C:\Users\Dell\Documents\Task01FizzBuzz\Task02MinStack\bin\Debug\Task02MinStack.exe.config
+C:\Users\Dell\Documents\Task01FizzBuzz\Task02MinStack\bin\Debug\Task02MinStack.exe
+C:\Users\Dell\Documents\Task01FizzBuzz\Task02MinStack\bin\Debug\Task02MinStack.pdb
+C:\Users\Dell\Documents\Task01FizzBuzz\Task02MinStack\obj\Debug\Task02MinStack.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\Task01FizzBuzz\Task02MinStack\obj\Debug\Task02MinStack.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\Task01FizzBuzz\Task02MinStack\obj\Debug\Task02MinStack.exe
+C:\Users\Dell\Documents\Task01FizzBuzz\Task02MinStack\obj\Debug\Task02MinStack.pdb

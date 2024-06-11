@@ -1,0 +1,7 @@
+C:\Users\Dell\Documents\Task01FizzBuzz\Task01FizzBuzz\bin\Debug\Task01FizzBuzz.exe.config
+C:\Users\Dell\Documents\Task01FizzBuzz\Task01FizzBuzz\bin\Debug\Task01FizzBuzz.exe
+C:\Users\Dell\Documents\Task01FizzBuzz\Task01FizzBuzz\bin\Debug\Task01FizzBuzz.pdb
+C:\Users\Dell\Documents\Task01FizzBuzz\Task01FizzBuzz\obj\Debug\Task01FizzBuzz.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\Task01FizzBuzz\Task01FizzBuzz\obj\Debug\Task01FizzBuzz.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\Task01FizzBuzz\Task01FizzBuzz\obj\Debug\Task01FizzBuzz.exe
+C:\Users\Dell\Documents\Task01FizzBuzz\Task01FizzBuzz\obj\Debug\Task01FizzBuzz.pdb

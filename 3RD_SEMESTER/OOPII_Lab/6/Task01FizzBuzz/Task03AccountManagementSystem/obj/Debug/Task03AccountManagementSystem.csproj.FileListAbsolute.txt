@@ -1,0 +1,7 @@
+C:\Users\Dell\Documents\Task01FizzBuzz\Task03AccountManagementSystem\bin\Debug\Task03AccountManagementSystem.exe.config
+C:\Users\Dell\Documents\Task01FizzBuzz\Task03AccountManagementSystem\bin\Debug\Task03AccountManagementSystem.exe
+C:\Users\Dell\Documents\Task01FizzBuzz\Task03AccountManagementSystem\bin\Debug\Task03AccountManagementSystem.pdb
+C:\Users\Dell\Documents\Task01FizzBuzz\Task03AccountManagementSystem\obj\Debug\Task03AccountManagementSystem.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\Task01FizzBuzz\Task03AccountManagementSystem\obj\Debug\Task03AccountManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\Task01FizzBuzz\Task03AccountManagementSystem\obj\Debug\Task03AccountManagementSystem.exe
+C:\Users\Dell\Documents\Task01FizzBuzz\Task03AccountManagementSystem\obj\Debug\Task03AccountManagementSystem.pdb
