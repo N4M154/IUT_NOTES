@@ -1,0 +1,7 @@
+C:\Users\USER\Documents\MovieRental\RefactoredMovieRental\bin\Debug\RefactoredMovieRental.exe.config
+C:\Users\USER\Documents\MovieRental\RefactoredMovieRental\bin\Debug\RefactoredMovieRental.exe
+C:\Users\USER\Documents\MovieRental\RefactoredMovieRental\bin\Debug\RefactoredMovieRental.pdb
+C:\Users\USER\Documents\MovieRental\RefactoredMovieRental\obj\Debug\RefactoredMovieRental.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\MovieRental\RefactoredMovieRental\obj\Debug\RefactoredMovieRental.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\MovieRental\RefactoredMovieRental\obj\Debug\RefactoredMovieRental.exe
+C:\Users\USER\Documents\MovieRental\RefactoredMovieRental\obj\Debug\RefactoredMovieRental.pdb
