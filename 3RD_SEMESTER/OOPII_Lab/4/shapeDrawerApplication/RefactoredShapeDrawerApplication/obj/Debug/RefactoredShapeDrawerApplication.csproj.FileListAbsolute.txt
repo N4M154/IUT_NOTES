@@ -1,0 +1,7 @@
+C:\Users\USER\Documents\ShapeDrawerApplication\RefactoredShapeDrawerApplication\bin\Debug\RefactoredShapeDrawerApplication.exe.config
+C:\Users\USER\Documents\ShapeDrawerApplication\RefactoredShapeDrawerApplication\bin\Debug\RefactoredShapeDrawerApplication.exe
+C:\Users\USER\Documents\ShapeDrawerApplication\RefactoredShapeDrawerApplication\bin\Debug\RefactoredShapeDrawerApplication.pdb
+C:\Users\USER\Documents\ShapeDrawerApplication\RefactoredShapeDrawerApplication\obj\Debug\RefactoredShapeDrawerApplication.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\ShapeDrawerApplication\RefactoredShapeDrawerApplication\obj\Debug\RefactoredShapeDrawerApplication.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\ShapeDrawerApplication\RefactoredShapeDrawerApplication\obj\Debug\RefactoredShapeDrawerApplication.exe
+C:\Users\USER\Documents\ShapeDrawerApplication\RefactoredShapeDrawerApplication\obj\Debug\RefactoredShapeDrawerApplication.pdb
