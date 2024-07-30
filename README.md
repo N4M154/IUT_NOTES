@@ -31,3 +31,7 @@
   - [HUM 4441 - Engineering Ethics](https://github.com/N4M154/IUT_NOTES/tree/main/4TH_SEMESTER/HUM%204441-Engineering%20Ethics)
   - [MATH 4441 - Probability & Statistics](https://github.com/N4M154/IUT_NOTES/tree/main/4TH_SEMESTER/MATH%204441-Probability%20%26%20Statistics)
 </details>
+
+<details>
+[JDK](https://www.oracle.com/java/technologies/javase/jdk19-archive-downloads.html)
+</details>
