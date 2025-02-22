@@ -1,0 +1,7 @@
+C:\Users\Dell\source\repos\EnDcypt\EnDcypt\bin\Debug\EnDcypt.exe.config
+C:\Users\Dell\source\repos\EnDcypt\EnDcypt\bin\Debug\EnDcypt.exe
+C:\Users\Dell\source\repos\EnDcypt\EnDcypt\bin\Debug\EnDcypt.pdb
+C:\Users\Dell\source\repos\EnDcypt\EnDcypt\obj\Debug\EnDcypt.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\EnDcypt\EnDcypt\obj\Debug\EnDcypt.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\EnDcypt\EnDcypt\obj\Debug\EnDcypt.exe
+C:\Users\Dell\source\repos\EnDcypt\EnDcypt\obj\Debug\EnDcypt.pdb

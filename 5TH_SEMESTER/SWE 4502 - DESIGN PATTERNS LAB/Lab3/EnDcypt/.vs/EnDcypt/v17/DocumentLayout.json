@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\source\\repos\\EnDcypt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4574ED49-F7AB-472B-80FC-0922957A50E5}|EnDcypt\\EnDcypt.csproj|c:\\users\\dell\\source\\repos\\endcypt\\endcypt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4574ED49-F7AB-472B-80FC-0922957A50E5}|EnDcypt\\EnDcypt.csproj|solutionrelative:endcypt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4574ED49-F7AB-472B-80FC-0922957A50E5}|EnDcypt\\EnDcypt.csproj|c:\\users\\dell\\source\\repos\\endcypt\\endcypt\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4574ED49-F7AB-472B-80FC-0922957A50E5}|EnDcypt\\EnDcypt.csproj|solutionrelative:endcypt\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4574ED49-F7AB-472B-80FC-0922957A50E5}|EnDcypt\\EnDcypt.csproj|C:\\Users\\Dell\\source\\repos\\EnDcypt\\endcypt\\caesercipher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4574ED49-F7AB-472B-80FC-0922957A50E5}|EnDcypt\\EnDcypt.csproj|solutionrelative:endcypt\\caesercipher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4574ED49-F7AB-472B-80FC-0922957A50E5}|EnDcypt\\EnDcypt.csproj|c:\\users\\dell\\source\\repos\\endcypt\\endcypt\\des.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4574ED49-F7AB-472B-80FC-0922957A50E5}|EnDcypt\\EnDcypt.csproj|solutionrelative:endcypt\\des.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4574ED49-F7AB-472B-80FC-0922957A50E5}|EnDcypt\\EnDcypt.csproj|C:\\Users\\Dell\\source\\repos\\EnDcypt\\endcypt\\aes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4574ED49-F7AB-472B-80FC-0922957A50E5}|EnDcypt\\EnDcypt.csproj|solutionrelative:endcypt\\aes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4574ED49-F7AB-472B-80FC-0922957A50E5}|EnDcypt\\EnDcypt.csproj|C:\\Users\\Dell\\source\\repos\\EnDcypt\\endcypt\\iencryptdecrypt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4574ED49-F7AB-472B-80FC-0922957A50E5}|EnDcypt\\EnDcypt.csproj|solutionrelative:endcypt\\iencryptdecrypt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\EnDcypt\\EnDcypt\\Context.cs",
+              "RelativeDocumentMoniker": "EnDcypt\\Context.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\EnDcypt\\EnDcypt\\Context.cs",
+              "RelativeToolTip": "EnDcypt\\Context.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T05:38:04.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DES.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\EnDcypt\\EnDcypt\\DES.cs",
+              "RelativeDocumentMoniker": "EnDcypt\\DES.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\EnDcypt\\EnDcypt\\DES.cs",
+              "RelativeToolTip": "EnDcypt\\DES.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwDgAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T05:34:55.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AES.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\EnDcypt\\EnDcypt\\AES.cs",
+              "RelativeDocumentMoniker": "EnDcypt\\AES.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\EnDcypt\\EnDcypt\\AES.cs",
+              "RelativeToolTip": "EnDcypt\\AES.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T05:16:34.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CaeserCipher.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\EnDcypt\\EnDcypt\\CaeserCipher.cs",
+              "RelativeDocumentMoniker": "EnDcypt\\CaeserCipher.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\EnDcypt\\EnDcypt\\CaeserCipher.cs",
+              "RelativeToolTip": "EnDcypt\\CaeserCipher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T05:02:12.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEncryptDecrypt.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\EnDcypt\\EnDcypt\\IEncryptDecrypt.cs",
+              "RelativeDocumentMoniker": "EnDcypt\\IEncryptDecrypt.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\EnDcypt\\EnDcypt\\IEncryptDecrypt.cs",
+              "RelativeToolTip": "EnDcypt\\IEncryptDecrypt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T04:57:46.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\EnDcypt\\EnDcypt\\Program.cs",
+              "RelativeDocumentMoniker": "EnDcypt\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\EnDcypt\\EnDcypt\\Program.cs",
+              "RelativeToolTip": "EnDcypt\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAwwBYAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T04:52:47.101Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
