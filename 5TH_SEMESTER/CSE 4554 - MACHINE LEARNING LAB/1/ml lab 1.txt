@@ -1,8 +1,0 @@
-machine learning:(4 main components)
-
-1.model
-2.dataset
-3.loss function
-4.optimazation
-
-why use python?
