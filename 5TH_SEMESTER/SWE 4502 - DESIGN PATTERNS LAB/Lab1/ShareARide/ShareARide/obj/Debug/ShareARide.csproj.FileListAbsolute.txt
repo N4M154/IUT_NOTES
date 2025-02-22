@@ -1,0 +1,7 @@
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\Lab1\ShareARide\ShareARide\bin\Debug\ShareARide.exe.config
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\Lab1\ShareARide\ShareARide\bin\Debug\ShareARide.exe
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\Lab1\ShareARide\ShareARide\bin\Debug\ShareARide.pdb
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\Lab1\ShareARide\ShareARide\obj\Debug\ShareARide.csproj.AssemblyReference.cache
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\Lab1\ShareARide\ShareARide\obj\Debug\ShareARide.csproj.CoreCompileInputs.cache
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\Lab1\ShareARide\ShareARide\obj\Debug\ShareARide.exe
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\Lab1\ShareARide\ShareARide\obj\Debug\ShareARide.pdb
