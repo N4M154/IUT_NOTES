@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{973B05C0-3628-4475-939A-9C1E962649E8}|IUTBeans\\IUTBeans.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\iutbeans\\condiment\\whippedcream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973B05C0-3628-4475-939A-9C1E962649E8}|IUTBeans\\IUTBeans.csproj|solutionrelative:iutbeans\\condiment\\whippedcream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{973B05C0-3628-4475-939A-9C1E962649E8}|IUTBeans\\IUTBeans.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\iutbeans\\condiment\\milk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973B05C0-3628-4475-939A-9C1E962649E8}|IUTBeans\\IUTBeans.csproj|solutionrelative:iutbeans\\condiment\\milk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{973B05C0-3628-4475-939A-9C1E962649E8}|IUTBeans\\IUTBeans.csproj|e:\\pdf\\classes\\swe 4502 - design patterns lab\\dp_lab_112\\lab4\\iutbeans\\iutbeans\\coffee\\latte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973B05C0-3628-4475-939A-9C1E962649E8}|IUTBeans\\IUTBeans.csproj|solutionrelative:iutbeans\\coffee\\latte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{973B05C0-3628-4475-939A-9C1E962649E8}|IUTBeans\\IUTBeans.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\iutbeans\\coffee\\espresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973B05C0-3628-4475-939A-9C1E962649E8}|IUTBeans\\IUTBeans.csproj|solutionrelative:iutbeans\\coffee\\espresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{973B05C0-3628-4475-939A-9C1E962649E8}|IUTBeans\\IUTBeans.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\iutbeans\\coffee\\cappuccino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973B05C0-3628-4475-939A-9C1E962649E8}|IUTBeans\\IUTBeans.csproj|solutionrelative:iutbeans\\coffee\\cappuccino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{973B05C0-3628-4475-939A-9C1E962649E8}|IUTBeans\\IUTBeans.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\iutbeans\\condiment\\whitesugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973B05C0-3628-4475-939A-9C1E962649E8}|IUTBeans\\IUTBeans.csproj|solutionrelative:iutbeans\\condiment\\whitesugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{973B05C0-3628-4475-939A-9C1E962649E8}|IUTBeans\\IUTBeans.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\iutbeans\\interfaces\\icoffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973B05C0-3628-4475-939A-9C1E962649E8}|IUTBeans\\IUTBeans.csproj|solutionrelative:iutbeans\\interfaces\\icoffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{973B05C0-3628-4475-939A-9C1E962649E8}|IUTBeans\\IUTBeans.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\iutbeans\\interfaces\\icondiment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973B05C0-3628-4475-939A-9C1E962649E8}|IUTBeans\\IUTBeans.csproj|solutionrelative:iutbeans\\interfaces\\icondiment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{973B05C0-3628-4475-939A-9C1E962649E8}|IUTBeans\\IUTBeans.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\iutbeans\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973B05C0-3628-4475-939A-9C1E962649E8}|IUTBeans\\IUTBeans.csproj|solutionrelative:iutbeans\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\ICoffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IUTBeans\\ICoffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\WhiteSugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IUTBeans\\WhiteSugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Latte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IUTBeans\\Latte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WhiteSugar.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Condiment\\WhiteSugar.cs",
+              "RelativeDocumentMoniker": "IUTBeans\\Condiment\\WhiteSugar.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Condiment\\WhiteSugar.cs",
+              "RelativeToolTip": "IUTBeans\\Condiment\\WhiteSugar.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T15:24:45.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICondiment.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Interfaces\\ICondiment.cs",
+              "RelativeDocumentMoniker": "IUTBeans\\Interfaces\\ICondiment.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Interfaces\\ICondiment.cs",
+              "RelativeToolTip": "IUTBeans\\Interfaces\\ICondiment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T04:13:56.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WhiteSugar.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\WhiteSugar.cs",
+              "RelativeDocumentMoniker": "IUTBeans\\WhiteSugar.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\WhiteSugar.cs",
+              "RelativeToolTip": "IUTBeans\\WhiteSugar.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T05:33:03.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Milk.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Condiment\\Milk.cs",
+              "RelativeDocumentMoniker": "IUTBeans\\Condiment\\Milk.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Condiment\\Milk.cs",
+              "RelativeToolTip": "IUTBeans\\Condiment\\Milk.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T05:28:13.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cappuccino.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Coffee\\Cappuccino.cs",
+              "RelativeDocumentMoniker": "IUTBeans\\Coffee\\Cappuccino.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Coffee\\Cappuccino.cs",
+              "RelativeToolTip": "IUTBeans\\Coffee\\Cappuccino.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T04:56:24.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Espresso.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Coffee\\Espresso.cs",
+              "RelativeDocumentMoniker": "IUTBeans\\Coffee\\Espresso.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Coffee\\Espresso.cs",
+              "RelativeToolTip": "IUTBeans\\Coffee\\Espresso.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T04:52:40.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICoffee.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\ICoffee.cs",
+              "RelativeDocumentMoniker": "IUTBeans\\ICoffee.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\ICoffee.cs",
+              "RelativeToolTip": "IUTBeans\\ICoffee.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T04:51:57.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Program.cs",
+              "RelativeDocumentMoniker": "IUTBeans\\Program.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Program.cs",
+              "RelativeToolTip": "IUTBeans\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABEAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T04:42:01.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICoffee.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Interfaces\\ICoffee.cs",
+              "RelativeDocumentMoniker": "IUTBeans\\Interfaces\\ICoffee.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Interfaces\\ICoffee.cs",
+              "RelativeToolTip": "IUTBeans\\Interfaces\\ICoffee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T15:33:01.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Latte.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Coffee\\Latte.cs",
+              "RelativeDocumentMoniker": "IUTBeans\\Coffee\\Latte.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Coffee\\Latte.cs",
+              "RelativeToolTip": "IUTBeans\\Coffee\\Latte.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T15:34:45.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WhippedCream.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Condiment\\WhippedCream.cs",
+              "RelativeDocumentMoniker": "IUTBeans\\Condiment\\WhippedCream.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Condiment\\WhippedCream.cs",
+              "RelativeToolTip": "IUTBeans\\Condiment\\WhippedCream.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T15:24:50.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Latte.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Latte.cs",
+              "RelativeDocumentMoniker": "IUTBeans\\Latte.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab4\\IUTBeans\\IUTBeans\\Latte.cs",
+              "RelativeToolTip": "IUTBeans\\Latte.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T04:55:47.474Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\dp_lab_112\Lab4\IUTBeans\IUTBeans\bin\Debug\IUTBeans.exe.config
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\dp_lab_112\Lab4\IUTBeans\IUTBeans\bin\Debug\IUTBeans.exe
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\dp_lab_112\Lab4\IUTBeans\IUTBeans\bin\Debug\IUTBeans.pdb
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\dp_lab_112\Lab4\IUTBeans\IUTBeans\obj\Debug\IUTBeans.csproj.AssemblyReference.cache
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\dp_lab_112\Lab4\IUTBeans\IUTBeans\obj\Debug\IUTBeans.csproj.CoreCompileInputs.cache
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\dp_lab_112\Lab4\IUTBeans\IUTBeans\obj\Debug\IUTBeans.exe
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\dp_lab_112\Lab4\IUTBeans\IUTBeans\obj\Debug\IUTBeans.pdb

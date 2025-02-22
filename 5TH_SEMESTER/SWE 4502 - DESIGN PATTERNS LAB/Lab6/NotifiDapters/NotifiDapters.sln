@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotifiDapters", "NotifiDapters\NotifiDapters.csproj", "{0D49F5A2-B45B-4292-B169-85F6264F7402}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D49F5A2-B45B-4292-B169-85F6264F7402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D49F5A2-B45B-4292-B169-85F6264F7402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D49F5A2-B45B-4292-B169-85F6264F7402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D49F5A2-B45B-4292-B169-85F6264F7402}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E95B380-9A1A-4882-A429-A5A654EA3249}
+	EndGlobalSection
+EndGlobal
