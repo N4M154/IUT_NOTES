@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ciné-Journal!</title>
+    <style>
+      /* Dark violet palette from the image */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #1a1026; /* Deep night-sky violet */
+        color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        padding: 20px;
+      }
+
+      h1, h2, h3 {
+        color: #5f3d81; /* Middle violet from the palette */
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+
+      h3 {
+        margin-top: 20px;
+        text-align: left;
+        border-bottom: 2px solid #5f3d81;
+        padding-bottom: 10px;
+      }
+
+      .container {
+        max-width: 900px;
+        width: 100%;
+        background-color: #31153b; /* Darker violet container */
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Circular Profile Button on the Left */
+      .profile-button {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        width: 80px;
+        height: 80px;
+        background-color: #79478f; /* Violet color for the circle */
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-decoration: none;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        z-index: 1000;
+      }
+
+      .profile-button:hover {
+        background-color: #4d2b6c;
+        transform: scale(1.1);
+      }
+
+      .section-heading {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .filter-section,
+      .movie-section {
+        margin-bottom: 30px;
+      }
+
+      form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      label {
+        margin-right: 10px;
+        font-size: 1rem;
+      }
+
+      select,
+      input[type="checkbox"] {
+        margin-right: 10px;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #e7d9f0; /* Light lilac from palette */
+        color: #333;
+      }
+
+      button {
+        background-color: #79478f; /* Button color from palette */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-weight: bold;
+      }
+
+      button:hover {
+        background-color: #4d2b6c; /* Darker violet on hover */
+      }
+
+      .genre-filter,
+      .favorites-form {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .genre-filter select {
+        max-width: 250px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+      }
+
+      th {
+        background-color: #5f3d81; /* Header color from palette */
+        color: white;
+        font-weight: bold;
+      }
+
+      td {
+        background-color: #4d2b6c; /* Table row background */
+        color: #f4f4f4;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 10px 0;
+      }
+
+      li {
+        margin-bottom: 5px;
+        font-size: 0.9rem;
+        color: #ccc;
+      }
+
+      a {
+        text-decoration: none;
+        color: #af7dc8; /* Lighter violet for links */
+        font-weight: bold;
+      }
+
+      a:hover {
+        text-decoration: underline;
+        color: #e7d9f0; /* Lighter lilac on hover */
+      }
+
+      .action-buttons {
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      .action-buttons a {
+        margin: 0 10px;
+      }
+
+      /* For mobile responsiveness */
+      @media (max-width: 768px) {
+        form {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        button {
+          width: 100%;
+          margin-bottom: 10px;
+        }
+
+        .genre-filter select {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Circular Profile Button -->
+    <a href="/profile?username=<%= username %>" class="profile-button">Profile</a>
+
+    <div class="container">
+      <h1>Welcome, <%= username %>!</h1>
+
+      <!-- Genre Filter Section -->
+      <div class="filter-section">
+        <h3 class="section-heading">Filter Movies by Genre</h3>
+        <form action="/filter-movies" method="POST" class="genre-filter">
+          <label for="genre">Select Genre:</label>
+          <select name="genre" id="genre">
+            <option value="all" <%= genreFilter === '' || genreFilter === 'all' ? 'selected' : '' %>>All</option>
+            <option value="Action" <%= genreFilter === 'Action' ? 'selected' : '' %>>Action</option>
+            <option value="Sci-Fi" <%= genreFilter === 'Sci-Fi' ? 'selected' : '' %>>Sci-Fi</option>
+            <option value="Crime" <%= genreFilter === 'Crime' ? 'selected' : '' %>>Crime</option>
+            <option value="Thriller" <%= genreFilter === 'Thriller' ? 'selected' : '' %>>Thriller</option>
+            <option value="Drama" <%= genreFilter === 'Drama' ? 'selected' : '' %>>Drama</option>
+            <option value="Fantasy" <%= genreFilter === 'Fantasy' ? 'selected' : '' %>>Fantasy</option>
+            <option value="Western" <%= genreFilter === 'Western' ? 'selected' : '' %>>Western</option>
+            <option value="Animation" <%= genreFilter === 'Animation' ? 'selected' : '' %>>Animation</option>
+          </select>
+          <input type="hidden" name="username" value="<%= username %>">
+          <button type="submit">Filter Movies</button>
+        </form>
+      </div>
+
+     
+
+      <!-- Movies and Reviews Section -->
+      <div class="movie-section">
+        <h3 class="section-heading">Movies List</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Director</th>
+              <th>Release Date</th>
+              <th>Genre</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% movies.forEach(movie => { %>
+              <tr>
+                <td><%= movie.name %></td>
+                <td><%= movie.director %></td>
+                <td><%= movie.releaseDate %></td>
+                <td><%= movie.genre %></td>
+              </tr>
+
+              <!-- Display reviews for the movie -->
+              <% if (reviews[movie.name]) { %>
+                <tr>
+                  <td colspan="4">
+                    <strong>Reviews:</strong>
+                    <ul>
+                      <% reviews[movie.name].forEach(review => { %>
+                        <li><%= review.username %> says: "<%= review.text %>"</li>
+                      <% }) %>
+                    </ul>
+                  </td>
+                </tr>
+              <% } else { %>
+                <tr>
+                  <td colspan="4"><em>No reviews for this movie yet.</em></td>
+                </tr>
+              <% } %>
+            <% }) %>
+          </tbody>
+        </table>
+      </div>
+       <!-- Favorite Genres Form -->
+       <div class="favorites-form">
+        <h3 class="section-heading">Select Your Favorite Genres</h3>
+        <form action="/save-favorite-genres" method="POST">
+          <label><input type="checkbox" name="genres" value="Action"> Action</label>
+          <label><input type="checkbox" name="genres" value="Sci-Fi"> Sci-Fi</label>
+          <label><input type="checkbox" name="genres" value="Crime"> Crime</label>
+          <label><input type="checkbox" name="genres" value="Thriller"> Thriller</label>
+          <label><input type="checkbox" name="genres" value="Drama"> Drama</label>
+          <label><input type="checkbox" name="genres" value="Fantasy"> Fantasy</label>
+          <label><input type="checkbox" name="genres" value="Western"> Western</label>
+          <label><input type="checkbox" name="genres" value="Animation"> Animation</label>
+          <input type="hidden" name="username" value="<%= username %>">
+          <button type="submit">Save Favorites</button>
+        </form>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="action-buttons">
+        <a href="/"><button>Logout</button></a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+Pulp Fiction,Quentin Tarantino,1994,Crime
+The Matrix,Lana Wachowski and Lilly Wachowski,1999,Sci-Fi
+The Shawshank Redemption,Frank Darabont,1994,Drama
+The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,2001,Fantasy
+Fight Club,David Fincher,1999,Drama
+The Dark Knight Rises,Christopher Nolan,2012,Action
+Avengers: Endgame,Anthony Russo and Joe Russo,2019,Action
+Whiplash,Damien Chazelle,2014,Drama
+Mad Max: Fury Road,George Miller,2015,Action
+Gladiator,Ridley Scott,2000,Action
+Schindler's List,Steven Spielberg,1993,Drama
+Joker,Todd Phillips,2019,Crime
+Django Unchained,Quentin Tarantino,2012,Western
+Spider-Man: Into the Spider-Verse,Bob Persichetti and Peter Ramsey,2018,Animation
+The Silence of the Lambs,Jonathan Demme,1991,Thriller

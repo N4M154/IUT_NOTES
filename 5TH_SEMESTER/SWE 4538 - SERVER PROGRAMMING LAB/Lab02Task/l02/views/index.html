@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ciné-Journal!</title>
+    <style>
+      /* Importing a modern font */
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+      body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(
+            135deg,
+            rgba(75, 10, 121, 0.386),
+            rgba(51, 24, 76, 0.379)
+          ),
+          url("/images/bg.jpg") center/cover no-repeat;
+        color: #fff;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 1.5rem; /* Reduced font size */
+        margin-bottom: 1rem;
+        color: #ffffff; /* White for better contrast */
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        letter-spacing: 1.2px; /* Adjusted for smaller size */
+        font-weight: 600;
+      }
+
+      p {
+        font-size: 1rem; /* Reduced font size */
+        margin-bottom: 1.5rem;
+        color: #ddd; /* Light gray for subtle contrast */
+        font-weight: 400;
+        max-width: 400px; /* Made it more compact */
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .container {
+        background-color: rgba(27, 4, 44, 0.6); /* Transparent dark backdrop */
+        padding: 1.5rem; /* Reduced padding */
+        border-radius: 15px;
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+        max-width: 600px; /* Limited the container width */
+        width: 100%; /* Ensure it doesn't exceed the screen size */
+        transform: translateY(-100px); /* Adjusted for better centering */
+      }
+
+      .container button {
+        background-color: #ffffff;
+        color: #6a0dad;
+        padding: 0.6rem 1.5rem; /* Reduced button padding */
+        font-size: 1rem; /* Reduced font size */
+        border-radius: 30px;
+        margin: 0.5rem;
+        cursor: pointer;
+        font-weight: 600;
+        border: 2px solid transparent;
+        transition: all 0.3s ease;
+      }
+
+      .container button:hover {
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        color: #ffffff;
+        box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.5);
+      }
+
+      .container a {
+        text-decoration: none;
+      }
+
+      /* Deadpool's quote bubble */
+      .quote {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 250px;
+        background-color: rgba(255, 255, 255, 0.1); /* Transparent white */
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        padding: 10px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 1rem;
+        font-style: italic;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        transform: rotate(-2deg);
+      }
+
+      .quote::before {
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 15px solid rgba(255, 255, 255, 0.1);
+        transform: translateX(-50%);
+      }
+
+      /* Media Queries for responsiveness */
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 0.9rem;
+        }
+        .container {
+          padding: 1.2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="quote">"Did someone say Chimichangas?"</div>
+
+    <div class="container">
+      <h1>
+        Welcome to Ciné-Journal!<br />
+        Where even your bad movie reviews get a sequel!
+      </h1>
+      <p>
+        Sign up or log in. It’s not like the world’s gonna end if you don’t… or
+        will it?
+      </p>
+      <a href="/signup"><button>Sign Up</button></a>
+      <a href="/login"><button>Log In</button></a>
+    </div>
+  </body>
+</html>

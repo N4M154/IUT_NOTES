@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ciné-Journal Profile</title>
+    <style>
+      /* Dark violet palette */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #1a1026; /* Deep violet background */
+        color: #f4f4f4;
+      }
+
+      h1,
+      h2 {
+        color: #9e72c3; /* Light violet for headings */
+        text-align: center;
+        margin-bottom: 10px;
+      }
+
+      h3 {
+        color: #924dbf;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #5f3d81; /* Subtle divider */
+        padding-bottom: 5px;
+        font-size: 1.1rem;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #2d1835; /* Dark violet container */
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      li {
+        background-color: #31153b;
+        border-radius: 8px;
+        margin-bottom: 8px;
+        padding: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      strong {
+        color: #af7dc8; /* Emphasized light violet */
+      }
+
+      form {
+        margin-top: 8px;
+      }
+
+      textarea {
+        width: 100%;
+        padding: 8px;
+        border-radius: 5px;
+        border: none;
+        background-color: #4a2574;
+        color: #f4f4f4;
+        resize: none;
+      }
+
+      button {
+        background-color: #79478f;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        font-size: 0.9rem;
+        margin: 5px 0;
+      }
+
+      button:hover {
+        background-color: #5f3d81;
+        transform: scale(1.05);
+      }
+
+      .delete-btn {
+        background-color: #ff4f4f;
+        padding: 8px 12px;
+        margin-top: 10px;
+      }
+
+      .delete-btn:hover {
+        background-color: #e03b3b;
+      }
+
+      .movie-item {
+        margin-bottom: 12px;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: #3b224b;
+      }
+
+      .reviews {
+        margin-top: 10px;
+        padding-left: 0;
+      }
+
+      .reviews li {
+        color: #f4f4f4;
+        font-size: 0.85rem;
+      }
+
+      .actions {
+        margin-top: 8px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 8px;
+      }
+
+      a {
+        color: #af7dc8;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .action-links {
+        margin-top: 15px;
+        text-align: center;
+      }
+
+      .quote {
+        background-color: #4a2574;
+        padding: 10px;
+        color: white;
+        border-radius: 8px;
+        text-align: center;
+        font-style: italic;
+        margin-bottom: 15px;
+      }
+
+      .header-divider {
+        margin: 20px 0;
+        border-bottom: 1px solid #5f3d81;
+        padding-bottom: 5px;
+      }
+
+      /* Compact and mobile-friendly */
+      @media (max-width: 768px) {
+        .actions {
+          flex-direction: column;
+        }
+
+        textarea {
+          font-size: 0.85rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Here's your profile,<%= username %>!</h2>
+      <div class="quote">
+        "What's this fascination with violet,huh? Trying to be mysterious?"
+      </div>
+
+      <div class="header-divider"></div>
+
+      <!-- Favorite Genres and Movies Section -->
+      <h3>Your Favorite Genres and Movies:</h3>
+      <% if (favoriteMovies.length > 0) { %>
+      <ul>
+        <% const uniqueGenres = [...new Set(favoriteMovies.map(movie =>
+        movie.genre))]; %> <% uniqueGenres.forEach(genre => { %>
+        <li>
+          <strong>Genre: <%= genre %></strong>
+          <ul>
+            <!-- Display movies of this genre -->
+            <% favoriteMovies.filter(movie => movie.genre ===
+            genre).forEach(movie => { %>
+            <li class="movie-item">
+              <strong>Movie:</strong> <%= movie.name %>
+              <br />
+              <strong>Director:</strong> <%= movie.director %>
+              <br />
+              <strong>Release Date:</strong> <%= movie.releaseDate %>
+
+              <div class="actions">
+                <form action="/watchlist" method="POST" style="display: inline">
+                  <input
+                    type="hidden"
+                    name="username"
+                    value="<%= username %>"
+                  />
+                  <input
+                    type="hidden"
+                    name="movieName"
+                    value="<%= movie.name %>"
+                  />
+                  <button type="submit" name="action" value="watched">
+                    Watched
+                  </button>
+                </form>
+                <form action="/watchlist" method="POST" style="display: inline">
+                  <input
+                    type="hidden"
+                    name="username"
+                    value="<%= username %>"
+                  />
+                  <input
+                    type="hidden"
+                    name="movieName"
+                    value="<%= movie.name %>"
+                  />
+                  <button type="submit" name="action" value="plan-to-watch">
+                    Plan to Watch
+                  </button>
+                </form>
+              </div>
+            </li>
+            <% }) %>
+          </ul>
+        </li>
+        <% }) %>
+      </ul>
+      <% } else { %>
+      <p>You haven't selected any favorite genres yet.</p>
+      <% } %>
+
+      <div class="header-divider"></div>
+
+      <!-- Watched Movies Section -->
+      <h3>Watched Movies:</h3>
+      <ul>
+        <% if (watchedMovies.length > 0) { %> <% watchedMovies.forEach(movie =>
+        { %>
+        <li class="movie-item">
+          <strong><%= movie %></strong>
+
+          <!-- User's Own Reviews -->
+          <% if (reviews[movie]) { %>
+          <div class="reviews">
+            <h4>Your Reviews:</h4>
+            <ul>
+              <% reviews[movie].forEach(review => { %> <% if (review.username
+              === username) { %>
+              <li>
+                <%= review.username %> says: "<%= review.text %>"
+
+                <form
+                  action="/delete-review"
+                  method="POST"
+                  style="display: inline"
+                >
+                  <input type="hidden" name="movieName" value="<%= movie %>" />
+                  <input
+                    type="hidden"
+                    name="reviewText"
+                    value="<%= review.text %>"
+                  />
+                  <input
+                    type="hidden"
+                    name="username"
+                    value="<%= username %>"
+                  />
+                  <button type="submit" class="delete-btn">Delete</button>
+                </form>
+              </li>
+              <% } %> <% }) %>
+            </ul>
+          </div>
+          <% } else { %>
+          <p>No reviews for this movie yet.</p>
+          <% } %>
+
+          <!-- Post a Review -->
+          <form action="/post-review" method="POST">
+            <input type="hidden" name="username" value="<%= username %>" />
+            <input type="hidden" name="movieName" value="<%= movie %>" />
+            <label for="review">Write a review:</label>
+            <textarea name="review" id="review" rows="3" required></textarea>
+            <button type="submit">Post Review</button>
+          </form>
+        </li>
+        <% }) %> <% } else { %>
+        <li>No movies in your watched list yet.</li>
+        <% } %>
+      </ul>
+
+      <div class="header-divider"></div>
+
+      <!-- Plan to Watch Movies Section -->
+      <h3>Plan to Watch Movies:</h3>
+      <ul>
+        <% if (planToWatchMovies.length > 0) { %> <%
+        planToWatchMovies.forEach(movie => { %>
+        <li><strong><%= movie %></strong></li>
+        <% }) %> <% } else { %>
+        <li>No movies in your plan to watch list yet.</li>
+        <% } %>
+      </ul>
+
+      <div class="header-divider"></div>
+
+      <!-- Delete Profile -->
+      <form action="/delete-profile" method="POST">
+        <input type="hidden" name="username" value="<%= username %>" />
+        <button type="submit" class="delete-btn">Delete Profile</button>
+      </form>
+
+      <!-- Navigation Links -->
+      <div class="action-links">
+        <a href="/filter-movies?username=<%= username %>">Back to Movies</a>
+        <br />
+        <a href="/">Logout</a>
+      </div>
+    </div>
+  </body>
+</html>
