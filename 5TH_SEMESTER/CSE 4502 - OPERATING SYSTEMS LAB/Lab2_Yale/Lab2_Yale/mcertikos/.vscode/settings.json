@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "x86.h": "c",
+        "import.h": "c",
+        "debug.h": "c"
+    }
+}
