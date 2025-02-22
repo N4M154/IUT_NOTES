@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|e:\\pdf\\classes\\swe 4502 - design patterns lab\\dp_lab_112\\lab7\\sogossip\\sogossip\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|solutionrelative:sogossip\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\sogossip\\apis\\insta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|solutionrelative:sogossip\\apis\\insta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\sogossip\\adapters\\twitteradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|solutionrelative:sogossip\\adapters\\twitteradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\sogossip\\apis\\twitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|solutionrelative:sogossip\\apis\\twitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\sogossip\\adapters\\linkedinadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|solutionrelative:sogossip\\adapters\\linkedinadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\sogossip\\apis\\linkedin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|solutionrelative:sogossip\\apis\\linkedin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\sogossip\\adapters\\instaadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|solutionrelative:sogossip\\adapters\\instaadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\sogossip\\adapters\\fbadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|solutionrelative:sogossip\\adapters\\fbadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\sogossip\\apis\\fb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|solutionrelative:sogossip\\apis\\fb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\sogossip\\adapters\\isns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|solutionrelative:sogossip\\adapters\\isns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\sogossip\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CF9F6C1-A96D-4CBE-89D3-F502F4381713}|SoGossip\\SoGossip.csproj|solutionrelative:sogossip\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\Program.cs",
+              "RelativeDocumentMoniker": "SoGossip\\Program.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\Program.cs",
+              "RelativeToolTip": "SoGossip\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T05:04:18.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FBAdapter.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\adapters\\FBAdapter.cs",
+              "RelativeDocumentMoniker": "SoGossip\\adapters\\FBAdapter.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\adapters\\FBAdapter.cs",
+              "RelativeToolTip": "SoGossip\\adapters\\FBAdapter.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T10:57:34.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Twitter.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\apis\\Twitter.cs",
+              "RelativeDocumentMoniker": "SoGossip\\apis\\Twitter.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\apis\\Twitter.cs",
+              "RelativeToolTip": "SoGossip\\apis\\Twitter.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwB0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T10:59:21.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FB.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\apis\\FB.cs",
+              "RelativeDocumentMoniker": "SoGossip\\apis\\FB.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\apis\\FB.cs",
+              "RelativeToolTip": "SoGossip\\apis\\FB.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T10:58:19.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LinkedInAdapter.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\adapters\\LinkedInAdapter.cs",
+              "RelativeDocumentMoniker": "SoGossip\\adapters\\LinkedInAdapter.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\adapters\\LinkedInAdapter.cs",
+              "RelativeToolTip": "SoGossip\\adapters\\LinkedInAdapter.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAcwCIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T10:51:33.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ISNS.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\adapters\\ISNS.cs",
+              "RelativeDocumentMoniker": "SoGossip\\adapters\\ISNS.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\adapters\\ISNS.cs",
+              "RelativeToolTip": "SoGossip\\adapters\\ISNS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T10:49:55.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InstaAdapter.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\adapters\\InstaAdapter.cs",
+              "RelativeDocumentMoniker": "SoGossip\\adapters\\InstaAdapter.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\adapters\\InstaAdapter.cs",
+              "RelativeToolTip": "SoGossip\\adapters\\InstaAdapter.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwCIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T10:49:29.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "insta.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\apis\\insta.cs",
+              "RelativeDocumentMoniker": "SoGossip\\apis\\insta.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\apis\\insta.cs",
+              "RelativeToolTip": "SoGossip\\apis\\insta.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T10:46:05.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Linkedin.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\apis\\Linkedin.cs",
+              "RelativeDocumentMoniker": "SoGossip\\apis\\Linkedin.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\apis\\Linkedin.cs",
+              "RelativeToolTip": "SoGossip\\apis\\Linkedin.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwB0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T10:48:01.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TwitterAdapter.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\adapters\\TwitterAdapter.cs",
+              "RelativeDocumentMoniker": "SoGossip\\adapters\\TwitterAdapter.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\adapters\\TwitterAdapter.cs",
+              "RelativeToolTip": "SoGossip\\adapters\\TwitterAdapter.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAUwCIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T11:02:34.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\Notification.cs",
+              "RelativeDocumentMoniker": "SoGossip\\Notification.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab7\\SoGossip\\SoGossip\\Notification.cs",
+              "RelativeToolTip": "SoGossip\\Notification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T10:53:13.668Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

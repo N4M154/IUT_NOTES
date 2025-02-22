@@ -1,0 +1,7 @@
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\dp_lab_112\Lab7\SoGossip\SoGossip\bin\Debug\SoGossip.exe.config
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\dp_lab_112\Lab7\SoGossip\SoGossip\bin\Debug\SoGossip.exe
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\dp_lab_112\Lab7\SoGossip\SoGossip\bin\Debug\SoGossip.pdb
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\dp_lab_112\Lab7\SoGossip\SoGossip\obj\Debug\SoGossip.csproj.AssemblyReference.cache
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\dp_lab_112\Lab7\SoGossip\SoGossip\obj\Debug\SoGossip.csproj.CoreCompileInputs.cache
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\dp_lab_112\Lab7\SoGossip\SoGossip\obj\Debug\SoGossip.exe
+E:\PDF\ClAsSeS\SWE 4502 - DESIGN PATTERNS LAB\dp_lab_112\Lab7\SoGossip\SoGossip\obj\Debug\SoGossip.pdb
