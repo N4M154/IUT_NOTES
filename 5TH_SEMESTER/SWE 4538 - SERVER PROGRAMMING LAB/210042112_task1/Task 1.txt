@@ -1,0 +1,13 @@
+Virtual Pet Playground is a playful API where users can adopt, care for and interact with virtual pets. Users can create a pet, monitor its stats, and perform actions like playing, or feeding the pet. Each action influences the pet's stats, creating a lively simulation where proper care keeps the pet happy but neglecting it might make it sick or run away!  
+Requirements 
+1. Create a pet: Users can create a new pet with a name, couple of images, age and species (like a bunny, puppy, or dragon). 
+Initial stats: 
+Hunger: 30 
+Energy: 50 
+Health: 100 
+2. View pet stats: Retrieve the current stats of a pet using its ID. If the pet's energy is less than 0 or its hunger exceeds 50, the pet will either become sick or run away, respectively. 
+3. Feed pet: Feeding the pet will decrease its hunger by 25 and increase its energy by 5. 
+4. Play with pet: Playing with the pet will decrease its energy by 30 and increase its hunger by 25. 
+5. Users can release their pet, removing it from the system. Additionally, if the pet's energy is below 0 and its hunger exceeds 50, the pet will be removed from the playground automatically 
+
+the image handling should be done with multer
