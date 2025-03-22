@@ -6,7 +6,7 @@ namespace FindWeather.Weather;
 public class WeatherStackAdapter : IWeatherAPI
 {
     private readonly HttpClient _httpClient;
-    private const string ApiKey = "462e316b52668a55c98e4a666087aba5";
+    private const string ApiKey = " ";//weatherstackapikey
 
     public WeatherStackAdapter()
     {

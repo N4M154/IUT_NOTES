@@ -9,7 +9,7 @@ namespace FindWeather_v112
 {
     internal class WeatherStackAPI
     {
-        private readonly string apiKey = "1d5774fb918f8d1301086452e73b086b";
+        private readonly string apiKey = " ";//weatherstackapikey
         private readonly HttpClient client = new HttpClient();
         public async Task<string> FetchWeatherData(double latitude, double longitude)
         {

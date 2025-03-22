@@ -6,7 +6,7 @@ public class IpstackLocationAdapter : ILocationApi
 {
     private readonly HttpClient _httpClient;
     private const string BaseUrlForIp = "https://api.ipify.org";
-    private const string ApiKey = "5aafdde732421bb8d92f63128a79d9ee";
+    private const string ApiKey = " ";//ipstackapikey
 
     public IpstackLocationAdapter()
     {

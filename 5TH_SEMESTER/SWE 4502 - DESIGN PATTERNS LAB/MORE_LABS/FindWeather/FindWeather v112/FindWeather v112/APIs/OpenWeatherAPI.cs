@@ -9,7 +9,7 @@ namespace FindWeather_v112
 {
     internal class OpenWeatherAPI
     {
-        private readonly string apiKey = "6478730e0f11b84d687c7b57123b8fbf";
+        private readonly string apiKey = " "; //openweatherapikey
         private readonly HttpClient client = new HttpClient();
         public async Task<string> FetchWeatherDataByCoordinates(double latitude, double longitude)
         {

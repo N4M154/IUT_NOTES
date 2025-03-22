@@ -28,7 +28,7 @@ namespace FindWeather_v112
                 return cachedLocation.Value;
             }
             string ip = await new HttpClient().GetStringAsync("https://api.ipify.org");
-            string url = $"http://api.ipstack.com/{ip}?access_key=de9240a0520081a9ce9e78214ec3e707";
+            string url = $"http://api.ipstack.com/{ip}?access_key= ";//ipstackapikey
             var response = await new HttpClient().GetStringAsync(url);
             var json = JsonDocument.Parse(response);
             double latitude = json.RootElement.GetProperty("latitude").GetDouble();

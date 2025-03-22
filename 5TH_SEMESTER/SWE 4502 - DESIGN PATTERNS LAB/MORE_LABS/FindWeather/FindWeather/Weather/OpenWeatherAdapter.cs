@@ -7,7 +7,7 @@ namespace FindWeather.Weather;
 public class OpenWeatherAdapter : IWeatherAPI
 {
     private readonly HttpClient _httpClient;
-    private const string ApiKey = "651e53e11cbd951c0d4f5b541422ee1a";
+    private const string ApiKey = " ";//openweatherapikey
     private const string Unit = "metric";
 
     public OpenWeatherAdapter()
