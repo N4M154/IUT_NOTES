@@ -1,7 +1,7 @@
 import socket
 import os
 # host to listen on
-HOST = '192.168.0.104'
+HOST = '192.168.0.104' # ip
 def main():
     # create raw socket, bin to public interface
     if os.name == 'nt':
@@ -21,3 +21,8 @@ def main():
         sniffer.ioctl(socket.SIO_RCVALL, socket.RCVALL_OFF)
 if __name__ == '__main__':
     main()
+    
+    
+    
+# open a terminal and run : sudo python sniffer.py
+# open another terminal and run : ping nostarch.com 

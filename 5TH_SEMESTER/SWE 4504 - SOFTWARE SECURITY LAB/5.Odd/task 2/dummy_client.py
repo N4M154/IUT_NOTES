@@ -1,10 +1,10 @@
 import smtplib
 
 def send_email():
-    smtp_server = "104.237.130.88"
+    smtp_server = " " # check the ip
     smtp_port = 25  # SMTP Port
-    from_email = "namisa.najah.raisa@gmail.com"
-    to_email = "namisaraisa2003@gmail.com"
+    from_email = " " # mail address
+    to_email = " " # mail address
     subject = "Test Email"
     body = "This is a test email sent via Python."
 
@@ -23,3 +23,5 @@ def send_email():
 
 # Run the function
 send_email()
+
+

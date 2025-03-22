@@ -134,3 +134,6 @@ if __name__ == '__main__':
     
     nc = NetCat(args, buffer.encode())
     nc.run()
+    
+    # open a terminal run : python netcat.py -t |ip| -p 5555 -l -c
+    # open another terminal run : nc |ip| 5555

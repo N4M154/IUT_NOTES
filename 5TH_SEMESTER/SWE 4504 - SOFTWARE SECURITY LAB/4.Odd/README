@@ -6,8 +6,4 @@ Do exactly as the pdf says.
 
 ## Task 2
 
-In case of curl do :
-
-```bash
-curl ssh_host:ssh_port || web_server_host:web_server_port
-```
+Do exactly as the pdf says.

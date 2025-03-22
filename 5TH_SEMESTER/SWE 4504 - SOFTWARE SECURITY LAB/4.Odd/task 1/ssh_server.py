@@ -22,7 +22,7 @@ class Server(paramiko.ServerInterface):
         return paramiko.AUTH_FAILED
 
 if __name__ == '__main__':
-    server = '192.168.174.124'
+    server = '192.168.174.124' # your ip address
     ssh_port = 2222  # Ensure this matches the port in ssh_rcmd.py
     
     try:

@@ -1,0 +1,3 @@
+# open a terminal and run : sudo python mail_sniffer.py
+
+# open another terminal and run : sudo python dummy_client.py

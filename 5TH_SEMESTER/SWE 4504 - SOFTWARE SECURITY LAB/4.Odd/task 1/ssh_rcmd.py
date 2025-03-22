@@ -29,8 +29,8 @@ def ssh_command(ip, port, user, passwd, command):
 
 if __name__ == '__main__':
     import getpass
-    user = input('Enter your username: ')
-    password = getpass.getpass(('Enter your password: '))
-    ip = input('Enter server IP: ')
+    user = input('Enter your username: ') # tim
+    password = getpass.getpass(('Enter your password: ')) # sekret
+    ip = input('Enter server IP: ') # the ipaddress in the ssh_server.py
     port = int(input('Enter port: '))  # Convert input to integer
     ssh_command(ip, port, user, password, 'ClientConnected')

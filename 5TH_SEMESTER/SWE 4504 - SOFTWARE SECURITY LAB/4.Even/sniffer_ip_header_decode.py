@@ -18,7 +18,7 @@ class IP:
         self.sum = header[7]
         self.src = header[8]
         self.dst = header[9]
-        # human readable IP addresses
+        # human-readable IP addresses
         self.src_address = ipaddress.ip_address(self.src)
         self.dst_address = ipaddress.ip_address(self.dst)
         # map protocol constants to their names
@@ -30,28 +30,32 @@ class IP:
             self.protocol = str(self.protocol_num)
 
 def sniff(host):
-    # should look familiar from previous example
+    # Choose protocol based on OS
     if os.name == 'nt':
         socket_protocol = socket.IPPROTO_IP
     else:
         socket_protocol = socket.IPPROTO_ICMP
+
+    # Create a raw socket and bind it to the host
     sniffer = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket_protocol)
     sniffer.bind((host, 0))
     sniffer.setsockopt(socket.IPPROTO_IP, socket.IP_HDRINCL, 1)
+
     if os.name == 'nt':
         sniffer.ioctl(socket.SIO_RCVALL, socket.RCVALL_ON)
+
     try:
         while True:
-            # read a packet
+            # Read a packet
             raw_buffer = sniffer.recvfrom(65535)[0]
-            # create an IP header from the first 20 bytes
+            # Create an IP header from the first 20 bytes
             ip_header = IP(raw_buffer[0:20])
-            # print the detected protocol and hosts
+            # Print the detected protocol and hosts
             print('Protocol: %s %s -> %s' % (ip_header.protocol,
                                              ip_header.src_address,
                                              ip_header.dst_address))
     except KeyboardInterrupt:
-        # if we're on Windows, turn off promiscuous mode
+        # On Windows, turn off promiscuous mode
         if os.name == 'nt':
             sniffer.ioctl(socket.SIO_RCVALL, socket.RCVALL_OFF)
         sys.exit()
@@ -60,5 +64,8 @@ if __name__ == '__main__':
     if len(sys.argv) == 2:
         host = sys.argv[1]
     else:
-        host = '192.168.0.104'
+        host = '192.168.0.104' # ip
     sniff(host)
+
+# open a terminal and run : sudo python sniffer_ip_header_decode.py
+# open another terminal and run : ping google.com

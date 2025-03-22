@@ -24,8 +24,10 @@ def scan_network(subnet):
     return active_hosts
 
 if __name__ == "__main__":
-    subnet = "192.168.0"
+    subnet = "192.168.0" # the first three octets of your IP address
     active_hosts = scan_network(subnet)
     print("\nActive Hosts:")
     for host in active_hosts:
         print(host)
+
+# open a terminal and run : sudo python task2.py
