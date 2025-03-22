@@ -1,0 +1,15 @@
+C:\Users\Dell\Desktop\SWE-4502\HomeAutomation\HomeAutomation\HomeAutomation\bin\Debug\HomeAutomation.exe.config
+C:\Users\Dell\Desktop\SWE-4502\HomeAutomation\HomeAutomation\HomeAutomation\bin\Debug\HomeAutomation.exe
+C:\Users\Dell\Desktop\SWE-4502\HomeAutomation\HomeAutomation\HomeAutomation\bin\Debug\HomeAutomation.pdb
+C:\Users\Dell\Desktop\SWE-4502\HomeAutomation\HomeAutomation\HomeAutomation\obj\Debug\HomeAutomation.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\SWE-4502\HomeAutomation\HomeAutomation\HomeAutomation\obj\Debug\HomeAutomation.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\SWE-4502\HomeAutomation\HomeAutomation\HomeAutomation\obj\Debug\HomeAutomation.exe
+C:\Users\Dell\Desktop\SWE-4502\HomeAutomation\HomeAutomation\HomeAutomation\obj\Debug\HomeAutomation.pdb
+C:\Users\Dell\Desktop\SWE-4502\HomeAutomation\HomeAutomation\HomeAutomation\bin\Debug\Castle.Core.dll
+C:\Users\Dell\Desktop\SWE-4502\HomeAutomation\HomeAutomation\HomeAutomation\bin\Debug\Moq.dll
+C:\Users\Dell\Desktop\SWE-4502\HomeAutomation\HomeAutomation\HomeAutomation\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Dell\Desktop\SWE-4502\HomeAutomation\HomeAutomation\HomeAutomation\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Dell\Desktop\SWE-4502\HomeAutomation\HomeAutomation\HomeAutomation\bin\Debug\Castle.Core.xml
+C:\Users\Dell\Desktop\SWE-4502\HomeAutomation\HomeAutomation\HomeAutomation\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Dell\Desktop\SWE-4502\HomeAutomation\HomeAutomation\HomeAutomation\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Dell\Desktop\SWE-4502\HomeAutomation\HomeAutomation\HomeAutomation\obj\Debug\HomeAuto.5AFAB595.Up2Date
