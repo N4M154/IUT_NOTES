@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56CD332C-C1D2-4B31-ACC5-7342D4839461}|Lab10\\Lab10.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\lab10\\bankinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56CD332C-C1D2-4B31-ACC5-7342D4839461}|Lab10\\Lab10.csproj|solutionrelative:lab10\\bankinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56CD332C-C1D2-4B31-ACC5-7342D4839461}|Lab10\\Lab10.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\lab10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56CD332C-C1D2-4B31-ACC5-7342D4839461}|Lab10\\Lab10.csproj|solutionrelative:lab10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56CD332C-C1D2-4B31-ACC5-7342D4839461}|Lab10\\Lab10.csproj|e:\\pdf\\classes\\swe 4502 - design patterns lab\\dp_lab_112\\lab10\\lab10\\lab10\\transferrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56CD332C-C1D2-4B31-ACC5-7342D4839461}|Lab10\\Lab10.csproj|solutionrelative:lab10\\transferrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56CD332C-C1D2-4B31-ACC5-7342D4839461}|Lab10\\Lab10.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\lab10\\withdrawrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56CD332C-C1D2-4B31-ACC5-7342D4839461}|Lab10\\Lab10.csproj|solutionrelative:lab10\\withdrawrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56CD332C-C1D2-4B31-ACC5-7342D4839461}|Lab10\\Lab10.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\lab10\\depositrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56CD332C-C1D2-4B31-ACC5-7342D4839461}|Lab10\\Lab10.csproj|solutionrelative:lab10\\depositrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56CD332C-C1D2-4B31-ACC5-7342D4839461}|Lab10\\Lab10.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\lab10\\createrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56CD332C-C1D2-4B31-ACC5-7342D4839461}|Lab10\\Lab10.csproj|solutionrelative:lab10\\createrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56CD332C-C1D2-4B31-ACC5-7342D4839461}|Lab10\\Lab10.csproj|e:\\pdf\\classes\\swe 4502 - design patterns lab\\dp_lab_112\\lab10\\lab10\\lab10\\bankaccountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56CD332C-C1D2-4B31-ACC5-7342D4839461}|Lab10\\Lab10.csproj|solutionrelative:lab10\\bankaccountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56CD332C-C1D2-4B31-ACC5-7342D4839461}|Lab10\\Lab10.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\lab10\\irequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56CD332C-C1D2-4B31-ACC5-7342D4839461}|Lab10\\Lab10.csproj|solutionrelative:lab10\\irequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BankInfo.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\Lab10\\BankInfo.cs",
+              "RelativeDocumentMoniker": "Lab10\\BankInfo.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\Lab10\\BankInfo.cs",
+              "RelativeToolTip": "Lab10\\BankInfo.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAA9wEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T05:34:26.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepositRequirement.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\Lab10\\DepositRequirement.cs",
+              "RelativeDocumentMoniker": "Lab10\\DepositRequirement.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\Lab10\\DepositRequirement.cs",
+              "RelativeToolTip": "Lab10\\DepositRequirement.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T05:48:56.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BankAccountManager.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\Lab10\\BankAccountManager.cs",
+              "RelativeDocumentMoniker": "Lab10\\BankAccountManager.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\Lab10\\BankAccountManager.cs",
+              "RelativeToolTip": "Lab10\\BankAccountManager.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T13:14:33.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateRequirement.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\Lab10\\CreateRequirement.cs",
+              "RelativeDocumentMoniker": "Lab10\\CreateRequirement.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\Lab10\\CreateRequirement.cs",
+              "RelativeToolTip": "Lab10\\CreateRequirement.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T05:44:27.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransferRequirement.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\Lab10\\TransferRequirement.cs",
+              "RelativeDocumentMoniker": "Lab10\\TransferRequirement.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\Lab10\\TransferRequirement.cs",
+              "RelativeToolTip": "Lab10\\TransferRequirement.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T13:12:02.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WithdrawRequirement.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\Lab10\\WithdrawRequirement.cs",
+              "RelativeDocumentMoniker": "Lab10\\WithdrawRequirement.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\Lab10\\WithdrawRequirement.cs",
+              "RelativeToolTip": "Lab10\\WithdrawRequirement.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T05:52:51.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\Lab10\\Program.cs",
+              "RelativeDocumentMoniker": "Lab10\\Program.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\Lab10\\Program.cs",
+              "RelativeToolTip": "Lab10\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T05:20:19.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRequirement.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\Lab10\\IRequirement.cs",
+              "RelativeDocumentMoniker": "Lab10\\IRequirement.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\dp_lab_112\\Lab10\\Lab10\\Lab10\\IRequirement.cs",
+              "RelativeToolTip": "Lab10\\IRequirement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T05:28:58.353Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
