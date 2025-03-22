@@ -1,0 +1,7 @@
+C:\Users\Dell\Desktop\SWE-4502\TaskManager\TaskManager_210042112\TaskManager_112\TaskManager_112\bin\Debug\TaskManager_112.exe.config
+C:\Users\Dell\Desktop\SWE-4502\TaskManager\TaskManager_210042112\TaskManager_112\TaskManager_112\bin\Debug\TaskManager_112.exe
+C:\Users\Dell\Desktop\SWE-4502\TaskManager\TaskManager_210042112\TaskManager_112\TaskManager_112\bin\Debug\TaskManager_112.pdb
+C:\Users\Dell\Desktop\SWE-4502\TaskManager\TaskManager_210042112\TaskManager_112\TaskManager_112\obj\Debug\TaskManager_112.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\SWE-4502\TaskManager\TaskManager_210042112\TaskManager_112\TaskManager_112\obj\Debug\TaskManager_112.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\SWE-4502\TaskManager\TaskManager_210042112\TaskManager_112\TaskManager_112\obj\Debug\TaskManager_112.exe
+C:\Users\Dell\Desktop\SWE-4502\TaskManager\TaskManager_210042112\TaskManager_112\TaskManager_112\obj\Debug\TaskManager_112.pdb

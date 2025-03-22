@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\SWE-4502\\TextEditorProject\\TextEditorProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90A049-740A-401D-A7C8-B2D70719F724}|TextEditorProject\\TextEditorProject.csproj|c:\\users\\dell\\desktop\\swe-4502\\texteditorproject\\texteditorproject\\texteditorproject\\texteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90A049-740A-401D-A7C8-B2D70719F724}|TextEditorProject\\TextEditorProject.csproj|solutionrelative:texteditorproject\\texteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90A049-740A-401D-A7C8-B2D70719F724}|TextEditorProject\\TextEditorProject.csproj|c:\\users\\dell\\desktop\\swe-4502\\texteditorproject\\texteditorproject\\texteditorproject\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90A049-740A-401D-A7C8-B2D70719F724}|TextEditorProject\\TextEditorProject.csproj|solutionrelative:texteditorproject\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90A049-740A-401D-A7C8-B2D70719F724}|TextEditorProject\\TextEditorProject.csproj|C:\\Users\\Dell\\Desktop\\SWE-4502\\TextEditorProject\\TextEditorProject\\texteditorproject\\editormemento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90A049-740A-401D-A7C8-B2D70719F724}|TextEditorProject\\TextEditorProject.csproj|solutionrelative:texteditorproject\\editormemento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90A049-740A-401D-A7C8-B2D70719F724}|TextEditorProject\\TextEditorProject.csproj|C:\\Users\\Dell\\Desktop\\SWE-4502\\TextEditorProject\\TextEditorProject\\texteditorproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90A049-740A-401D-A7C8-B2D70719F724}|TextEditorProject\\TextEditorProject.csproj|solutionrelative:texteditorproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5147876-3019-49DA-9AF9-48A8AB86E89B}|TextEditorTests\\TextEditorTests.csproj|c:\\users\\dell\\desktop\\swe-4502\\texteditorproject\\texteditorproject\\texteditortests\\save_load.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5147876-3019-49DA-9AF9-48A8AB86E89B}|TextEditorTests\\TextEditorTests.csproj|solutionrelative:texteditortests\\save_load.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 214,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TextEditor.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SWE-4502\\TextEditorProject\\TextEditorProject\\TextEditorProject\\TextEditor.cs",
+              "RelativeDocumentMoniker": "TextEditorProject\\TextEditor.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\SWE-4502\\TextEditorProject\\TextEditorProject\\TextEditorProject\\TextEditor.cs",
+              "RelativeToolTip": "TextEditorProject\\TextEditor.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwDgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T06:33:33.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Save_Load.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SWE-4502\\TextEditorProject\\TextEditorProject\\TextEditorTests\\Save_Load.cs",
+              "RelativeDocumentMoniker": "TextEditorTests\\Save_Load.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\SWE-4502\\TextEditorProject\\TextEditorProject\\TextEditorTests\\Save_Load.cs",
+              "RelativeToolTip": "TextEditorTests\\Save_Load.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwCkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T06:20:46.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "History.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SWE-4502\\TextEditorProject\\TextEditorProject\\TextEditorProject\\History.cs",
+              "RelativeDocumentMoniker": "TextEditorProject\\History.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\SWE-4502\\TextEditorProject\\TextEditorProject\\TextEditorProject\\History.cs",
+              "RelativeToolTip": "TextEditorProject\\History.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAzwDAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T05:08:14.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditorMemento.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SWE-4502\\TextEditorProject\\TextEditorProject\\TextEditorProject\\EditorMemento.cs",
+              "RelativeDocumentMoniker": "TextEditorProject\\EditorMemento.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\SWE-4502\\TextEditorProject\\TextEditorProject\\TextEditorProject\\EditorMemento.cs",
+              "RelativeToolTip": "TextEditorProject\\EditorMemento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T05:07:56.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SWE-4502\\TextEditorProject\\TextEditorProject\\TextEditorProject\\Program.cs",
+              "RelativeDocumentMoniker": "TextEditorProject\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\SWE-4502\\TextEditorProject\\TextEditorProject\\TextEditorProject\\Program.cs",
+              "RelativeToolTip": "TextEditorProject\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T04:59:44.337Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
