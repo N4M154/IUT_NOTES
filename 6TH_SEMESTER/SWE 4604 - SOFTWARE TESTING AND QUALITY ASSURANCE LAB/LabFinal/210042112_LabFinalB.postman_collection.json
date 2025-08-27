@@ -1,0 +1,578 @@
+{
+	"info": {
+		"_postman_id": "63bc5f07-d7bb-4214-b934-065b002846d3",
+		"name": "LabFinalB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33047879"
+	},
+	"item": [
+		{
+			"name": "Create User1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Created User Test 1 with given data\", () => {\r",
+							"  \r",
+							"    var responseData = pm.response.json();\r",
+							"    pm.collectionVariables.set(\"userId1\", responseData.userId);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"email\": \"namisa_112@user.com\",\r\n\"password\": \"namisa_112\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseURL}}users/register",
+					"host": [
+						"{{BaseURL}}users"
+					],
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Create User Test 2 with given data\", function () {\r",
+							"  \r",
+							"        var responseData = pm.response.json();\r",
+							"        pm.collectionVariables.set(\"userId2\" + responseData.userId);\r",
+							"    });\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"first_name\":\"Namisa\",\r\n\"last_name\": \"Najah\",\r\n\"email\": \"namisa_112@user.com\",\r\n\"password\": \"namisa_112\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseURL}}users/register",
+					"host": [
+						"{{BaseURL}}users"
+					],
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Create User Test 3 with given data\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    var userId = jsonData.id;\r",
+							"    pm.collectionVariables.set(\"userId_user3\", userId);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"first_name\" : \"Namisa\",\r\n\"last_name\" : \"Najah\",\r\n\"address\" : [\"blahblahblah\"] ,\r\n\"city\" : \"Dhaka\",\r\n\"phone\" : \"210042112\",\r\n\"dob\" : \"1970-01-01\" ,\r\n\"password\" : \"Super-secret3\",\r\n\"email\": \"najah@doe.com\"\r\n}   ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseURL}}users/register",
+					"host": [
+						"{{BaseURL}}users"
+					],
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"\r",
+							"pm.test(\"Test Login with user data\", ()=>{\r",
+							"    var jsonData = pm.response.json();\r",
+							"    var token = jsonData.access_token;\r",
+							"    pm.globals.set(\"access_token\", token);   \r",
+							"\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"najah@doe.com\",\r\n  \"password\": \"Super-secret3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseURL}}users/login",
+					"host": [
+						"{{BaseURL}}users"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update User Info",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Update information of user 3\", ()=>{\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5wcmFjdGljZXNvZnR3YXJldGVzdGluZy5jb20vdXNlcnMvbG9naW4iLCJpYXQiOjE3NTYwODk3ODQsImV4cCI6MTc1NjA5MDA4NCwibmJmIjoxNzU2MDg5Nzg0LCJqdGkiOiJmY29KVTJLNFN5cUhxcmdzIiwic3ViIjoiMDFrM2ZoZzF4cjV2d3AzM3A4bWNocmR0M3EiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3Iiwicm9sZSI6InVzZXIifQ.rz1TCsz9UcM1sOHB049Kl2DDGlnmT0UkJqfNgTBiIAE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"first_name\": \"Namisa\",\r\n  \"last_name\": \"Najah\",\r\n  \"address\": {\r\n    \"street\": \"anystreet\",\r\n    \"city\": \"Dhaka\",\r\n    \"country\": \"Bangladesh\"\r\n  },\r\n  \"phone\": \"210042112\",\r\n  \"dob\": \"1970-01-01\",\r\n  \"password\": \"Super-secret3\",\r\n  \"email\": \"najah@doe.com\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseURL}}users/{{userId_user3}}",
+					"host": [
+						"{{BaseURL}}users"
+					],
+					"path": [
+						"{{userId_user3}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search Hammer",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Searching for hammer\", ()=>{\r",
+							"    var jsonData = pm.response.json();\r",
+							"    var products = jsonData.data;\r",
+							"    var productId = jsonData.data[0].id; \r",
+							"\r",
+							"    pm.globals.set(\"hammer\", productId);\r",
+							"    pm.globals.set(\"productId\", productId);\r",
+							"\r",
+							"    for (var i = 0; i < products.length; i++) {\r",
+							"        \r",
+							"        pm.expect(products[i].name.toLowerCase()).to.include(\"hammer\");\r",
+							"\r",
+							"    }\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5wcmFjdGljZXNvZnR3YXJldGVzdGluZy5jb20vdXNlcnMvbG9naW4iLCJpYXQiOjE3NTYwODk3ODQsImV4cCI6MTc1NjA5MDA4NCwibmJmIjoxNzU2MDg5Nzg0LCJqdGkiOiJmY29KVTJLNFN5cUhxcmdzIiwic3ViIjoiMDFrM2ZoZzF4cjV2d3AzM3A4bWNocmR0M3EiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3Iiwicm9sZSI6InVzZXIifQ.rz1TCsz9UcM1sOHB049Kl2DDGlnmT0UkJqfNgTBiIAE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseURL}}products/search?q=hammer",
+					"host": [
+						"{{BaseURL}}products"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "hammer"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search Pliers",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Searching for pliers\", ()=>{\r",
+							"    var jsonData = pm.response.json();\r",
+							"    var products = jsonData.data;\r",
+							"\r",
+							"    pm.expect(products.length).to.equal(4);\r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Find out-of-stock plier\", ()=>{\r",
+							"    var jsonData = pm.response.json();\r",
+							"    var outOfStockPlier = null;\r",
+							"\r",
+							"    for (var i = 0; i < jsonData.data.length; i++) {\r",
+							"        if (!jsonData.data[i].in_stock) {\r",
+							"            outOfStockPlier = jsonData.data[i].id || jsonData.data[i].product_id;\r",
+							"            break;\r",
+							"        }\r",
+							"    }\r",
+							"    pm.globals.set(\"out_plier\", outOfStockPlier);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseURL}}products/search?q=pliers",
+					"host": [
+						"{{BaseURL}}products"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "pliers"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Related Products",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Check if all related products have the same hammer category\", ()=>{\r",
+							"    var jsonData = pm.response.json();\r",
+							"    var relatedProducts = jsonData.data;\r",
+							"\r",
+							"    if (relatedProducts && relatedProducts.length > 0) {\r",
+							"        var hammerCategoryId = pm.globals.get(\"hammer\");\r",
+							"\r",
+							"        for (var i = 0; i < relatedProducts.length; i++) {\r",
+							"            pm.expect(relatedProducts[i].category_id).to.equal(hammerCategoryId);\r",
+							"        }\r",
+							"    } else {\r",
+							"        pm.test(\"No related hammer products found\",()=>{\r",
+							"           \r",
+							"        });\r",
+							"    }\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5wcmFjdGljZXNvZnR3YXJldGVzdGluZy5jb20vdXNlcnMvbG9naW4iLCJpYXQiOjE3NTYwODk3ODQsImV4cCI6MTc1NjA5MDA4NCwibmJmIjoxNzU2MDg5Nzg0LCJqdGkiOiJmY29KVTJLNFN5cUhxcmdzIiwic3ViIjoiMDFrM2ZoZzF4cjV2d3AzM3A4bWNocmR0M3EiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3Iiwicm9sZSI6InVzZXIifQ.rz1TCsz9UcM1sOHB049Kl2DDGlnmT0UkJqfNgTBiIAE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseURL}}products/{{productId}}/related",
+					"host": [
+						"{{BaseURL}}products"
+					],
+					"path": [
+						"{{productId}}",
+						"related"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Cart",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Created a Cart\",()=>{\r",
+							"    var jsonData = pm.response.json();\r",
+							"    var cartId = jsonData.id;\r",
+							"    pm.globals.set(\"cartID\", cartId);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5wcmFjdGljZXNvZnR3YXJldGVzdGluZy5jb20vdXNlcnMvbG9naW4iLCJpYXQiOjE3NTYwODk3ODQsImV4cCI6MTc1NjA5MDA4NCwibmJmIjoxNzU2MDg5Nzg0LCJqdGkiOiJmY29KVTJLNFN5cUhxcmdzIiwic3ViIjoiMDFrM2ZoZzF4cjV2d3AzM3A4bWNocmR0M3EiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3Iiwicm9sZSI6InVzZXIifQ.rz1TCsz9UcM1sOHB049Kl2DDGlnmT0UkJqfNgTBiIAE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{BaseURL}}carts",
+					"host": [
+						"{{BaseURL}}carts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Hammer to Cart",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Add Hammer to Cart\", ()=>{\r",
+							"    var jsonData = pm.response.json();\r",
+							"    var response = jsonData.data;\r",
+							"\r",
+							"    pm.response.to.have.status(200);\r",
+							"       \r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5wcmFjdGljZXNvZnR3YXJldGVzdGluZy5jb20vdXNlcnMvbG9naW4iLCJpYXQiOjE3NTYwODk3ODQsImV4cCI6MTc1NjA5MDA4NCwibmJmIjoxNzU2MDg5Nzg0LCJqdGkiOiJmY29KVTJLNFN5cUhxcmdzIiwic3ViIjoiMDFrM2ZoZzF4cjV2d3AzM3A4bWNocmR0M3EiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3Iiwicm9sZSI6InVzZXIifQ.rz1TCsz9UcM1sOHB049Kl2DDGlnmT0UkJqfNgTBiIAE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"product_id\": \"01K3FJPHP28B3SM8FD8T7QK2TS\",\r\n  \"quantity\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseURL}}carts/{{cartID}}",
+					"host": [
+						"{{BaseURL}}carts"
+					],
+					"path": [
+						"{{cartID}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Pliers to Cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"product_id\": \"01K3FJPHNZHE4AAXBN8F2XNVWB\",\r\n  \"quantity\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseURL}}carts/{{cartID}}",
+					"host": [
+						"{{BaseURL}}carts"
+					],
+					"path": [
+						"{{cartID}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "BaseURL",
+			"value": "https://api.practicesoftwaretesting.com/",
+			"description": {
+				"content": "",
+				"type": "text/plain"
+			}
+		},
+		{
+			"key": "userId1",
+			"value": ""
+		},
+		{
+			"key": "userId2undefined",
+			"value": ""
+		},
+		{
+			"key": "userId_user3",
+			"value": ""
+		},
+		{
+			"key": "out_plier",
+			"value": ""
+		}
+	]
+}
