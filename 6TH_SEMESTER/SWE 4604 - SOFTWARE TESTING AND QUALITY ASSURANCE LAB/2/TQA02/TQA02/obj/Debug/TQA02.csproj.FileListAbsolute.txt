@@ -1,0 +1,7 @@
+C:\Users\Dell\Documents\TQA02\TQA02\bin\Debug\TQA02.exe.config
+C:\Users\Dell\Documents\TQA02\TQA02\bin\Debug\TQA02.exe
+C:\Users\Dell\Documents\TQA02\TQA02\bin\Debug\TQA02.pdb
+C:\Users\Dell\Documents\TQA02\TQA02\obj\Debug\TQA02.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\TQA02\TQA02\obj\Debug\TQA02.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\TQA02\TQA02\obj\Debug\TQA02.exe
+C:\Users\Dell\Documents\TQA02\TQA02\obj\Debug\TQA02.pdb
