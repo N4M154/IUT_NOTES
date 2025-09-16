@@ -1,7 +1,0 @@
-C:\Users\Dell\Documents\AirlineReservationSystem\AirlineReservationSystem\obj\Debug\AirlineReservationSystem.csproj.AssemblyReference.cache
-C:\Users\Dell\Documents\AirlineReservationSystem\AirlineReservationSystem\obj\Debug\AirlineReservationSystem.csproj.CoreCompileInputs.cache
-C:\Users\Dell\Documents\AirlineReservationSystem\AirlineReservationSystem\bin\Debug\AirlineReservationSystem.exe.config
-C:\Users\Dell\Documents\AirlineReservationSystem\AirlineReservationSystem\bin\Debug\AirlineReservationSystem.exe
-C:\Users\Dell\Documents\AirlineReservationSystem\AirlineReservationSystem\bin\Debug\AirlineReservationSystem.pdb
-C:\Users\Dell\Documents\AirlineReservationSystem\AirlineReservationSystem\obj\Debug\AirlineReservationSystem.exe
-C:\Users\Dell\Documents\AirlineReservationSystem\AirlineReservationSystem\obj\Debug\AirlineReservationSystem.pdb
