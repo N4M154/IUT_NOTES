@@ -1,0 +1,116 @@
+/* 210042112 */
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.profile-card {
+  position: relative;
+  width: 300px;
+  padding: 30px 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-top-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+  background-color: lightblue;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.profile-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  z-index: 1;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  margin-top: -30px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.contact-button {
+  padding: 5px 15px;
+  border: 1px solid;
+  background-color: lightblue;
+  color: black;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.contact-button:hover {
+  background-color: rgb(116, 177, 198);
+}
+
+.profile-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.profile-title {
+  color: gray;
+  font-size: 14px;
+  margin: 5px 0 15px;
+}
+
+.profile-bio {
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.profile-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skillset {
+  padding: 6px 12px;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: rgb(221, 239, 246);
+  font-size: 12px;
+  background-color: rgb(221, 239, 246);
+}
+.skillset:hover {
+  background-color: rgb(133, 195, 215);
+  cursor: pointer;
+}
+
+.App .title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+/* -_- N4M154 -_- */
