@@ -1,0 +1,36 @@
+POST http://localhost:3001/user
+Content-Type: application/json
+
+{
+  "name":"abc",
+  "email":"abc@gmail.com",
+  "age":23,
+  "phone":"210042112"
+}
+
+###
+POST http://localhost:3001/user
+Content-Type: application/json
+
+{
+  "name":"def",
+  "email":"def@gmail.com",
+  "age":23,
+  "phone":"210042112"
+}
+
+###
+GET http://localhost:3001/user
+
+###
+PUT http://localhost:3001/user/688204b7f29a9de1988d2f33
+Content-Type: application/json
+
+ {
+"name":"Namisa",
+"email":"namisa@gmail.com"
+ }
+
+
+###
+DELETE http://localhost:3001/user/6882092c058547ed75d0ea8c

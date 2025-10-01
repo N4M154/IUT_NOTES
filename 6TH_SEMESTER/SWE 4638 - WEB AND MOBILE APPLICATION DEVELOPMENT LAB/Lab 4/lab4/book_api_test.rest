@@ -1,0 +1,41 @@
+POST http://localhost:3001/book
+Content-Type: application/json
+
+{
+  "title": "book1",
+  "author": "author1",
+  "isbn": "210042112",
+  "publishedYear": 5,
+  "genre": "Fiction",
+  "availableCopies": 5
+}
+
+###
+POST http://localhost:3001/book
+Content-Type: application/json
+
+{
+  "title": "book2",
+  "author": "author2",
+  "isbn": "210042112",
+  "publishedYear": 2025,
+  "genre": "Drama",
+  "availableCopies": 6
+}
+
+###
+GET http://localhost:3001/book
+
+
+###
+
+PUT http://localhost:3001/book/6882025cd442f6974a224784
+Content-Type: application/json
+
+{
+  "genre":"Comedy",
+  "availableCopies":10
+}
+
+###
+DELETE http://localhost:3001/book/6881fc5d03767aad3c2c0085
