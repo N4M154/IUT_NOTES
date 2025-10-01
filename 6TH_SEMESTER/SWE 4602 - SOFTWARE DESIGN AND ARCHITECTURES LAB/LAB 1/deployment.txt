@@ -1,0 +1,21 @@
+1. create Web App
+    Create Resource --> Create resource (1-3)
+    create app service plan  
+    create app service / web app  
+2. Create github repo  
+    push code to GitHub - git add . || git commit -m "" || git push -u origin master
+3. connect github to azure  - click on the resource > deployment center
+4. write script for production in server.js  
+    const path = require('path')
+   
+    //production script
+    app.use(express.static("./client/build"))
+    app.get("*", (req,res)=>{
+      res.sendFile(path.resolve(__dirname,"client","build","index.html"))
+        })
+
+5. change baseUrl to azure url
+6. build client static files - npm run build
+7. add web.config
+8. set up env variables in azure
+9. git push
