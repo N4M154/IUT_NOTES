@@ -1,0 +1,29 @@
+ORG 0100h
+
+.DATA
+A DB 11
+B DW 500
+SUM DW ?
+DIFFERENCE DB ?
+MULTIPLICATION DW ?
+DIVISION DB ?
+
+
+.CODE
+
+MAIN PROC
+      MOV AL,30
+      ADD AL,15
+      
+      MOV BX,575
+      SUB BX,225
+      
+      MUL BX     ;WILL BE IN AL
+      ADD AX,210
+      
+      MOV SUM,AX
+    
+MAIN ENDP
+
+END MAIN
+RET
