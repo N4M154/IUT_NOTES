@@ -1,0 +1,111 @@
+
+
+ORG 0100h
+MAIN PROC
+; display prompt
+MOV AH, 2
+MOV DL, '?'
+INT 21h
+; input a character
+MOV AH, 1
+INT 21h
+MOV BL, AL 
+
+; go to a new line with carriage return
+MOV AH, 2
+MOV DL, 0DH
+INT 21h
+MOV DL, 0AH
+INT 21h  
+
+
+CMP BL, 'A'
+JL INVALID     ;jump if less
+CMP BL, 'Z'
+JG MINUSCULE   ;jump if greater
+ADD BL, 32     
+JMP display    
+
+
+MINUSCULE:
+CMP BL, 'a'
+JL INVALID
+CMP BL, 'z'
+JG INVALID
+SUB BL, 32
+JMP display
+
+
+INVALID: 
+;will not print anything  
+JMP EXIT
+
+; display character 
+display: 
+MOV CL,5
+ADD BL,1 
+
+FORWARD_LOOP:    
+CMP BL,'z'
+JG MOVE_TO_BEGINNING   
+CMP BL,'a'
+JGE NORMAL_NEXT_LETTER ; jump if greater or equal
+
+
+CMP BL,'Z'
+JG MOVE_TO_BEGINNING
+CMP BL,'Z'
+JLE NORMAL_NEXT_LETTER
+
+
+MOVE_TO_BEGINNING:
+SUB BL,26    
+
+
+NORMAL_NEXT_LETTER:
+MOV DL, BL
+INT 21h 
+ADD BL,1 
+SUB CL,1
+CMP CL,0 
+JG FORWARD_LOOP
+
+NEW_LINE:
+MOV AH, 2
+MOV DL, 0DH
+INT 21h
+MOV DL, 0AH
+INT 21h  
+
+;for prev letters
+MOV CL,5
+SUB BL,7
+
+BACKWARD_LOOP:
+CMP BL,'A'
+JL MOVE_TO_END
+CMP BL,'Z'
+JLE NORMAL_PREV_LETTER 
+CMP BL,'a'
+JGE NORMAL_PREV_LETTER
+
+MOVE_TO_END:
+ADD BL,26
+ 
+NORMAL_PREV_LETTER:
+MOV DL, BL
+INT 21h 
+SUB BL,1 
+SUB CL,1
+CMP CL,0 
+JG BACKWARD_LOOP 
+
+
+
+EXIT:
+; return to DOS
+MOV AH, 4CH
+INT 21H
+MAIN ENDP
+END MAIN
+RET
