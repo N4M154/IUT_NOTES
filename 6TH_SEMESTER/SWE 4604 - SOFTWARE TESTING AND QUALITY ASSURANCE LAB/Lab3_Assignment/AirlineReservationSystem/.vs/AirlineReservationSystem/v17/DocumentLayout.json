@@ -1,0 +1,192 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BD5070-7233-4964-A160-39B515A95B0C}|AirlineReservationSystemTest\\AirlineReservationSystemTest.csproj|c:\\users\\dell\\documents\\airlinereservationsystem\\airlinereservationsystemtest\\rolesandpermissionstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BD5070-7233-4964-A160-39B515A95B0C}|AirlineReservationSystemTest\\AirlineReservationSystemTest.csproj|solutionrelative:airlinereservationsystemtest\\rolesandpermissionstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BD5070-7233-4964-A160-39B515A95B0C}|AirlineReservationSystemTest\\AirlineReservationSystemTest.csproj|c:\\users\\dell\\documents\\airlinereservationsystem\\airlinereservationsystemtest\\randomgeneratortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BD5070-7233-4964-A160-39B515A95B0C}|AirlineReservationSystemTest\\AirlineReservationSystemTest.csproj|solutionrelative:airlinereservationsystemtest\\randomgeneratortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BD5070-7233-4964-A160-39B515A95B0C}|AirlineReservationSystemTest\\AirlineReservationSystemTest.csproj|c:\\users\\dell\\documents\\airlinereservationsystem\\airlinereservationsystemtest\\idisplayclasstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BD5070-7233-4964-A160-39B515A95B0C}|AirlineReservationSystemTest\\AirlineReservationSystemTest.csproj|solutionrelative:airlinereservationsystemtest\\idisplayclasstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BD5070-7233-4964-A160-39B515A95B0C}|AirlineReservationSystemTest\\AirlineReservationSystemTest.csproj|c:\\users\\dell\\documents\\airlinereservationsystem\\airlinereservationsystemtest\\flighttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BD5070-7233-4964-A160-39B515A95B0C}|AirlineReservationSystemTest\\AirlineReservationSystemTest.csproj|solutionrelative:airlinereservationsystemtest\\flighttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BD5070-7233-4964-A160-39B515A95B0C}|AirlineReservationSystemTest\\AirlineReservationSystemTest.csproj|c:\\users\\dell\\documents\\airlinereservationsystem\\airlinereservationsystemtest\\flightreservationstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BD5070-7233-4964-A160-39B515A95B0C}|AirlineReservationSystemTest\\AirlineReservationSystemTest.csproj|solutionrelative:airlinereservationsystemtest\\flightreservationstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BD5070-7233-4964-A160-39B515A95B0C}|AirlineReservationSystemTest\\AirlineReservationSystemTest.csproj|c:\\users\\dell\\documents\\airlinereservationsystem\\airlinereservationsystemtest\\flightdistancetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BD5070-7233-4964-A160-39B515A95B0C}|AirlineReservationSystemTest\\AirlineReservationSystemTest.csproj|solutionrelative:airlinereservationsystemtest\\flightdistancetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BD5070-7233-4964-A160-39B515A95B0C}|AirlineReservationSystemTest\\AirlineReservationSystemTest.csproj|c:\\users\\dell\\documents\\airlinereservationsystem\\airlinereservationsystemtest\\customertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BD5070-7233-4964-A160-39B515A95B0C}|AirlineReservationSystemTest\\AirlineReservationSystemTest.csproj|solutionrelative:airlinereservationsystemtest\\customertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BB87A23-55C5-4FCD-B7DE-A6C168BA2F7C}|AirlineReservationSystem\\AirlineReservationSystem.csproj|c:\\users\\dell\\documents\\airlinereservationsystem\\airlinereservationsystem\\flightreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BB87A23-55C5-4FCD-B7DE-A6C168BA2F7C}|AirlineReservationSystem\\AirlineReservationSystem.csproj|solutionrelative:airlinereservationsystem\\flightreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BB87A23-55C5-4FCD-B7DE-A6C168BA2F7C}|AirlineReservationSystem\\AirlineReservationSystem.csproj|C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\airlinereservationsystem\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BB87A23-55C5-4FCD-B7DE-A6C168BA2F7C}|AirlineReservationSystem\\AirlineReservationSystem.csproj|solutionrelative:airlinereservationsystem\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BB87A23-55C5-4FCD-B7DE-A6C168BA2F7C}|AirlineReservationSystem\\AirlineReservationSystem.csproj|C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\airlinereservationsystem\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BB87A23-55C5-4FCD-B7DE-A6C168BA2F7C}|AirlineReservationSystem\\AirlineReservationSystem.csproj|solutionrelative:airlinereservationsystem\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FlightTests.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\AirlineReservationSystemTest\\FlightTests.cs",
+              "RelativeDocumentMoniker": "AirlineReservationSystemTest\\FlightTests.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\AirlineReservationSystemTest\\FlightTests.cs",
+              "RelativeToolTip": "AirlineReservationSystemTest\\FlightTests.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAADwvxoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:35:37.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IDisplayClassTests.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\AirlineReservationSystemTest\\IDisplayClassTests.cs",
+              "RelativeDocumentMoniker": "AirlineReservationSystemTest\\IDisplayClassTests.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\AirlineReservationSystemTest\\IDisplayClassTests.cs",
+              "RelativeToolTip": "AirlineReservationSystemTest\\IDisplayClassTests.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAowAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:56:53.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FlightDistanceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\AirlineReservationSystemTest\\FlightDistanceTests.cs",
+              "RelativeDocumentMoniker": "AirlineReservationSystemTest\\FlightDistanceTests.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\AirlineReservationSystemTest\\FlightDistanceTests.cs",
+              "RelativeToolTip": "AirlineReservationSystemTest\\FlightDistanceTests.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:54:06.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FlightReservationsTests.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\AirlineReservationSystemTest\\FlightReservationsTests.cs",
+              "RelativeDocumentMoniker": "AirlineReservationSystemTest\\FlightReservationsTests.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\AirlineReservationSystemTest\\FlightReservationsTests.cs",
+              "RelativeToolTip": "AirlineReservationSystemTest\\FlightReservationsTests.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:27:28.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RandomGeneratorTests.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\AirlineReservationSystemTest\\RandomGeneratorTests.cs",
+              "RelativeDocumentMoniker": "AirlineReservationSystemTest\\RandomGeneratorTests.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\AirlineReservationSystemTest\\RandomGeneratorTests.cs",
+              "RelativeToolTip": "AirlineReservationSystemTest\\RandomGeneratorTests.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAA7wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:57:55.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\AirlineReservationSystemTest\\CustomerTests.cs",
+              "RelativeDocumentMoniker": "AirlineReservationSystemTest\\CustomerTests.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\AirlineReservationSystemTest\\CustomerTests.cs",
+              "RelativeToolTip": "AirlineReservationSystemTest\\CustomerTests.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAADwv0MAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:59:06.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RolesAndPermissionsTests.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\AirlineReservationSystemTest\\RolesAndPermissionsTests.cs",
+              "RelativeDocumentMoniker": "AirlineReservationSystemTest\\RolesAndPermissionsTests.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\AirlineReservationSystemTest\\RolesAndPermissionsTests.cs",
+              "RelativeToolTip": "AirlineReservationSystemTest\\RolesAndPermissionsTests.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAswA0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:46:46.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FlightReservation.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\AirlineReservationSystem\\FlightReservation.cs",
+              "RelativeDocumentMoniker": "AirlineReservationSystem\\FlightReservation.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\AirlineReservationSystem\\FlightReservation.cs",
+              "RelativeToolTip": "AirlineReservationSystem\\FlightReservation.cs",
+              "ViewState": "AQIAAKEAAAAAAAAAAAASwKwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:27:35.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\AirlineReservationSystem\\Customer.cs",
+              "RelativeDocumentMoniker": "AirlineReservationSystem\\Customer.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\AirlineReservationSystem\\Customer.cs",
+              "RelativeToolTip": "AirlineReservationSystem\\Customer.cs",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T05:13:25.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Flight.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\AirlineReservationSystem\\Flight.cs",
+              "RelativeDocumentMoniker": "AirlineReservationSystem\\Flight.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\AirlineReservationSystem\\AirlineReservationSystem\\Flight.cs",
+              "RelativeToolTip": "AirlineReservationSystem\\Flight.cs",
+              "ViewState": "AQIAALIAAAAAAAAAAAAqwEcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T05:30:23.531Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
