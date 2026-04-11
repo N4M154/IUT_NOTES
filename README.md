@@ -52,16 +52,16 @@
   <summary>Semester 06</summary>
 
 - [CSE 4617 - Artificial Intelligence](https://github.com/N4M154/IUT_NOTES/tree/main/6TH_SEMESTER/CSE%204617%20-%20ARTIFICIAL%20INTELLIGENCE)
-- [CSE 4618 - Artificial Intelligence Lab](https://github.com/N4M154/IUT_NOTES/tree/main/6TH_SEMESTER/CSE%204617%20-%20ARTIFICIAL%20INTELLIGENCE%20LAB)
+- [CSE 4618 - Artificial Intelligence Lab](https://github.com/N4M154/IUT_NOTES/tree/main/6TH_SEMESTER/CSE%204618%20-%20ARTIFICIAL%20INTELLIGENCE%20LAB)
 - [CSE 4621 - Microprocessor and Interfacing](https://github.com/N4M154/IUT_NOTES/tree/main/6TH_SEMESTER/CSE%204621%20-%20MICROPROCESSOR%20AND%20INTERFACING)
-- [CSE 4622 - Microprocessor and Interfacing Lab](https://github.com/N4M154/IUT_NOTES/tree/main/6TH_SEMESTER/CSE%204621%20-%20MICROPROCESSOR%20AND%20INTERFACING%20LAB)
+- [CSE 4622 - Microprocessor and Interfacing Lab](https://github.com/N4M154/IUT_NOTES/tree/main/6TH_SEMESTER/CSE%204622%20-%20MICROPROCESSOR%20AND%20INTERFACING%20LAB)
 - [MATH 4643 - Probability and Statistics II](https://github.com/N4M154/IUT_NOTES/tree/main/6TH_SEMESTER/MATH%204643%20-%20PROBABILITY%20AND%20STATISTICS%20II)
 - [SWE 4601 - Software Design and Architectures](https://github.com/N4M154/IUT_NOTES/tree/main/6TH_SEMESTER/SWE%204601%20-%20SOFTWARE%20DESIGN%20AND%20ARCHITECTURES)
-- [SWE 4602 - Software Design and Architectures Lab](https://github.com/N4M154/IUT_NOTES/tree/main/6TH_SEMESTER/SWE%204601%20-%20SOFTWARE%20DESIGN%20AND%20ARCHITECTURES%20LAB)
+- [SWE 4602 - Software Design and Architectures Lab](https://github.com/N4M154/IUT_NOTES/tree/main/6TH_SEMESTER/SWE%204602%20-%20SOFTWARE%20DESIGN%20AND%20ARCHITECTURES%20LAB)
 - [SWE 4603 - Software Testing and Quality Assurance](https://github.com/N4M154/IUT_NOTES/tree/main/6TH_SEMESTER/SWE%204603%20-%20SOFTWARE%20TESTING%20AND%20QUALITY%20ASSURANCE)
-- [SWE 4604 - Software Testing and Quality Assurance Lab](https://github.com/N4M154/IUT_NOTES/tree/main/6TH_SEMESTER/SWE%204603%20-%20SOFTWARE%20TESTING%20AND%20QUALITY%20ASSURANCE%20LAB)
+- [SWE 4604 - Software Testing and Quality Assurance Lab](https://github.com/N4M154/IUT_NOTES/tree/main/6TH_SEMESTER/SWE%204604%20-%20SOFTWARE%20TESTING%20AND%20QUALITY%20ASSURANCE%20LAB)
 - [SWE 4637 - Web and Mobile Application Development](https://github.com/N4M154/IUT_NOTES/tree/main/6TH_SEMESTER/SWE%204637%20-%20WEB%20AND%20MOBILE%20APPLICATION%20DEVELOPMENT)
-- [SWE 4638 - Web and Mobile Application Development Lab](https://github.com/N4M154/IUT_NOTES/tree/main/6TH_SEMESTER/SWE%204637%20-%20WEB%20AND%20MOBILE%20APPLICATION%20DEVELOPMENT%20LAB)
+- [SWE 4638 - Web and Mobile Application Development Lab](https://github.com/N4M154/IUT_NOTES/tree/main/6TH_SEMESTER/SWE%204638%20-%20WEB%20AND%20MOBILE%20APPLICATION%20DEVELOPMENT%20LAB)
 </details>
 
 <details>
@@ -71,6 +71,6 @@
 - [HUM 4747 - Legal Issues & Cyber Law](https://github.com/N4M154/IUT_NOTES/tree/main/7TH_SEMESTER/HUM%204747%20-%20LEGAL%20ISSUES%20%26%20CYBER%20LAW)
 - [SWE 4701 - Software Metrics & Process](https://github.com/N4M154/IUT_NOTES/tree/main/7TH_SEMESTER/SWE%204701%20-%20SOFTWARE%20METRICS%20%26%20PROCESS)
 - [SWE 4739 - Embedded Software Development](https://github.com/N4M154/IUT_NOTES/tree/main/7TH_SEMESTER/SWE%204739%20-%20EMBEDDED%20SOFTWARE%20DEVELOPMENT)
-- [SWE 4740 - Embedded Software Development Lab](https://github.com/N4M154/IUT_NOTES/tree/main/7TH_SEMESTER/SWE%204739%20-%20EMBEDDED%20SOFTWARE%20DEVELOPMENT%20LAB)
+- [SWE 4740 - Embedded Software Development Lab](https://github.com/N4M154/IUT_NOTES/tree/main/7TH_SEMESTER/SWE%204740%20-%20EMBEDDED%20SOFTWARE%20DEVELOPMENT%20LAB)
 
 </details>
