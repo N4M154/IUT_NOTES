@@ -1,0 +1,63 @@
+//1
+// C++ code
+//
+
+int piezo = 7;
+int gsensor = A0;
+
+void setup()
+{
+  pinMode(piezo, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  int val = analogRead(A0);
+  Serial.println(val);
+  
+  if(val > 650)
+  {
+    digitalWrite(piezo, HIGH);
+  }
+  
+  else
+  {
+    digitalWrite(piezo, LOW);
+  }
+ 
+}
+
+// N4M154
+// 210042112
+//2
+// C++ code
+//
+
+int photors = A1;
+int led = 8;
+
+void setup()
+{
+  pinMode(led, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  int val = analogRead(photors);
+  Serial.println(val);
+  
+  if(val < 550)
+  {
+    digitalWrite(led,HIGH);
+  }
+  else
+  {
+    digitalWrite(led,LOW);
+  }
+  
+}
+
+// N4M154
+// 210042112

@@ -1,0 +1,91 @@
+//1
+//C++ code
+//
+
+int LED = 8;
+int BUTTON = 4;
+void setup()
+{
+  pinMode(LED, OUTPUT);
+  pinMode(BUTTON, INPUT);
+  //in case of pullup method you write INPUT_PULLUP
+}
+
+void loop()
+{
+   int buttonState = digitalRead(BUTTON);
+  
+   if(buttonState == HIGH)
+   {
+     digitalWrite(LED,HIGH);
+   }
+  else
+  {
+    digitalWrite(LED,LOW);
+  }
+                            
+}
+//N4M154
+//210042112
+
+//2
+int LED = 8;
+int BUTTON = 4;
+
+int ledState = LOW;          
+int lastButtonPressState = LOW;   
+
+void setup()
+{
+  pinMode(LED, OUTPUT);
+  pinMode(BUTTON, INPUT); 
+  // when using pull up method it's INPUT_PULLUP);
+}
+
+void loop()
+{
+  int buttonState = digitalRead(BUTTON);
+
+
+  if (buttonState == HIGH && lastButtonPressState == LOW)
+  {
+    ledState = !ledState;         
+    digitalWrite(LED, ledState);
+                       
+  }
+
+  lastButtonPressState = buttonState; 
+}
+//N4M154
+//210042112
+
+//3
+int LED = 8;
+int BUTTON = 4;
+
+int ledState = LOW;          
+int lastButtonPressState = LOW;   
+
+void setup()
+{
+  pinMode(LED, OUTPUT);
+  pinMode(BUTTON, INPUT); 
+  // when using pull up method it's INPUT_PULLUP);
+}
+
+void loop()
+{
+  int buttonState = digitalRead(BUTTON);
+
+
+  if (buttonState == HIGH && lastButtonPressState == LOW)
+  {
+    ledState = !ledState;         
+    digitalWrite(LED, ledState);
+                       
+  }
+
+  lastButtonPressState = buttonState; 
+}
+//N4M154
+//210042112

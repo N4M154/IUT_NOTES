@@ -1,0 +1,120 @@
+//1
+int led = 8;
+int button = 2;
+
+bool ledState = false;
+
+void setup()
+{
+  pinMode(led, OUTPUT);
+  pinMode(button, INPUT);   // changed from INPUT_PULLUP
+  Serial.begin(9600);
+
+  attachInterrupt(digitalPinToInterrupt(button),ledToggle,RISING);
+}
+
+void loop()
+{
+  digitalWrite(led, ledState);
+}
+
+void ledToggle()
+{
+  ledState = !ledState;
+}
+//2
+// C++ code
+//
+// Interrupt mode: 1. FALLING (state high->low) 2. RISING (state lw->high)
+//3. CHANGE (both cases) 4.LOW (trigger only when in low; not transition to high; stay in low)
+
+int led = 8;
+int button = 2;
+
+bool ledState = false;
+
+void setup()
+{
+  pinMode(led, OUTPUT);
+  pinMode(button,INPUT_PULLUP);
+  Serial.begin(9600);
+  attachInterrupt(digitalPinToInterrupt(button),ledToggle,FALLING);
+
+}
+
+void loop()
+{
+  digitalWrite(led, ledState);
+}
+                  
+void ledToggle()
+{
+  ledState = !ledState;
+  
+}
+               
+//3
+// C++ code
+//
+
+
+int led = 10;
+int potn = A1;
+void setup()
+{
+  pinMode(led, OUTPUT);
+  Serial.begin(9600);
+  
+}
+
+void loop()
+{
+  int potnValue = analogRead(potn);
+  //Serial.println(potnValue);
+  
+  
+  int brightness = map(potnValue, 0, 1023, 0, 255);
+  
+  Serial.println(brightness);
+  analogWrite(led, brightness);
+}
+
+//4
+// C++ code
+//
+
+
+int led1 = 10;
+int led2 = 11;
+int potn = A1;
+void setup()
+{
+  pinMode(led1, OUTPUT);
+  pinMode(led2, OUTPUT);
+  Serial.begin(9600);
+  
+}
+
+void loop()
+{
+  int potnValue = analogRead(potn);
+  //Serial.println(potnValue);
+  
+  
+  int brightness = map(potnValue, 0, 1023, 0, 255);
+  
+  Serial.println(brightness);
+  analogWrite(led1, brightness);
+  
+  if(brightness > 180)
+  { 
+    digitalWrite(led2, HIGH);
+  }
+  else
+  {
+    digitalWrite(led2, LOW);
+  }
+}
+
+//N4M154
+//210042112

@@ -1,0 +1,61 @@
+//1
+// C++ code
+//
+
+int LED_PIN = 8;
+
+void setup()
+{
+  pinMode(LED_PIN, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(LED_PIN, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  
+  digitalWrite(LED_PIN, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
+
+// N4M154
+//210042112
+
+//2
+// C++ code
+//
+
+int LED_RED = 8;
+int LED_YELLOW = 7;
+int LED_GREEN = 2;
+
+void setup()
+{
+  pinMode(LED_RED, OUTPUT);
+  pinMode(LED_YELLOW, OUTPUT);
+  pinMode(LED_GREEN, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(LED_RED, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  
+  digitalWrite(LED_RED, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+  
+  digitalWrite(LED_YELLOW, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  
+  digitalWrite(LED_YELLOW, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+  
+  digitalWrite(LED_GREEN, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  
+  digitalWrite(LED_GREEN, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
+
+//N4M154
+//210042112
