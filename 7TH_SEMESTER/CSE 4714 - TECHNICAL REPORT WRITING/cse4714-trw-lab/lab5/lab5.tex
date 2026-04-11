@@ -1,0 +1,51 @@
+\documentclass[a4paper,12pt]{article}
+
+% preamble
+
+\usepackage[backend=biber,style=numeric,sorting=ynt]{biblatex}
+\addbibresource{references.bib}
+\usepackage{hyperref}
+
+
+\title{Lab 5: Bibliography and Citations in \LaTeX}
+\author{Mohammad Ishrak Abedin \\ Samnun Azfar}
+\date{\today}
+
+
+\begin{document}
+
+\begin{titlepage}  
+    \maketitle
+\end{titlepage}
+
+\tableofcontents
+
+
+\section{Single and Multi Citations}
+
+Backpropagation is very nice and useful and attention is all you need\cite{vaswani2017attention,lecun2002efficient}.\\
+Backpropagation is very nice and useful\cite{lecun2002efficient}. \\
+
+\section{Text, Parent and Foot Cites}
+
+\subsection{TextCite}
+So \textcite{lecun2002efficient} has made efficient Backpropagation. 
+\subsection{ParentCite}
+So \parencite{lecun2002efficient} has made efficient Backpropagation. 
+\subsection{FootCite}
+So this paper has made efficient Backpropagation\footcite{lecun2002efficient}. 
+
+
+
+\newpage
+% bibtex references
+% \bibliographystyle{alpha} % unsrt, abbrv, alpha, ieeetr, acm
+% \bibliography{references.bib}
+
+%biber references
+\printbibliography[title={These are the References},heading={bibintoc}]
+
+
+
+
+\end{document}

@@ -1,0 +1,172 @@
+\documentclass[a4paper,12pt]{article}
+
+% preamble 
+\usepackage{amsmath,amssymb}
+
+\title{Lab 2 : Mathematical Expressions in \LaTeX}
+\author{Mohammad Ishrak Abedin \\ Samnun Azfar}
+\date{\today}
+
+\begin{document}
+
+\begin{titlepage}  
+\maketitle
+\end{titlepage}
+
+\section{Inline Math}
+
+This line has an eqn \( \sin^{2}x + \cos^{2}x = var_{i}^2 \) \\
+This line has an eqn $ \sin^{2}x + \cos^{2}x = var_{i}^2 $ \\
+This line has an eqn 
+\begin{math}
+\sin^{2}x + \cos^{2}x = var_{i}^2 
+\end{math}
+
+
+\section{Display Math}
+This section shows display math envs:
+\begin{displaymath}
+    \sin^{2}x + \cos^{2}x = var_{i}^2
+\end{displaymath}
+
+This section shows display math envs:
+$$    \sin^{2}x + \cos^{2}x = var_{i}^2 $$
+
+This section shows display math envs:
+\[    \sin^{2}x + \cos^{2}x = var_{i}^2 \]
+
+This section shows display math envs:
+\begin{equation}
+    \sin^{2}x + cos^{2}x = var_{i}^2
+\end{equation}
+
+\section{Math Commands}
+
+
+\subsection{Commands}
+\begin{equation}
+    \zeta(s)=\sum_{n=1}^{\infty}\frac{1}{n^s}
+\end{equation}
+
+\begin{equation}
+    e = \lim_{x\to\infty} (1 + \frac{1}{x})^x
+\end{equation}
+
+\begin{equation}
+   \left[  1 = \int_0^e\frac{1}{e}dx \right]
+\end{equation}
+
+\begin{equation}
+    e^n = \prod_{i=1}^{n}e
+\end{equation}
+
+\section{Symbols}
+
+Zeta: $\zeta$ \\
+Theta: $\cos\theta$ and $\Theta$ \\
+Mathcal: $\mathcal{RABCD}$ \\
+Mathfrac: $\mathfrak{Rabcd}$ \\
+MathBB: $\mathbb{R}$
+MathBF: $\mathbf{R}$
+
+
+\section{Math Environments}
+
+\subsection{Equation Env}
+\paragraph{Numbered:}
+\begin{equation}
+    \zeta(s)=\sum_{n=1}^{\infty}\frac{1}{n^s}
+\end{equation}
+\paragraph{Unnumbered:}
+\begin{equation*}
+    \zeta(s)=\sum_{n=1}^{\infty}\frac{1}{n^s}
+\end{equation*}
+
+\subsection{Multiline}
+\begin{multline}
+    a + b + c + d + e + b + c + d + e + b + c + d + e\\ 
+    a + b + c + d + e + b + c + d + e + b + c + d + e\\ 
+    + f + g + h + i + b + c + d + e + b + c + d + e = 1
+\end{multline}
+
+\subsection{Split and Aligned}
+
+\paragraph{Split}
+\begin{equation}
+    f(x) = \left\{ \begin{split}
+        a + b = 10&  \quad \text{if} \ x > 10\\
+        c + d = \  9& \quad  \text{if} \ x \leq 10
+    \end{split} \right   
+\end{equation}
+
+\paragraph{Align}
+
+\begin{align} % alignment specifiers using the ampersand sign
+a &= b + c \\
+  &= d + e
+\end{align} 
+
+\paragraph{Gather}
+
+\begin{gather} % no alignment specification
+    \sin{x} + \cos{x} = 1.414 \\
+    \sin{x} + \cos{x} = 1.4 
+\end{gather}
+
+\section{Vectors and Matrices}
+
+\subsection{Vector}
+A vector symbol could be \begin{equation}\vec{v} \times \vec{u} = \left[ \begin{split}
+    0 \\
+    1
+\end{split} \right] \end{equation}
+
+\subsection{Matrices}
+
+\subsubsection{Pmatrix}
+
+\begin{equation}
+    \begin{pmatrix}
+        0 & 1 & 2\\
+        0 & 1 & 2\\
+        0 & 1 & 2
+    \end{pmatrix}
+    \begin{pmatrix}
+        0 & 1 & 2\\
+        0 & 1 & 2\\
+        0 & 1 & 2
+    \end{pmatrix}
+
+\end{equation}
+
+\subsubsection{Bmatrix}
+\begin{equation}
+    \begin{bmatrix}
+        0 & 1 & 2\\
+        0 & 1 & 2\\
+        0 & 1 & 2
+    \end{bmatrix}
+    \begin{Bmatrix}
+        0 & 1 & 2\\
+        0 & 1 & 2\\
+        0 & 1 & 2
+    \end{Bmatrix}
+
+\end{equation}
+\subsubsection{Vmatrix}
+\begin{equation}
+    \begin{vmatrix}
+        0 & 1 & 2\\
+        0 & 1 & 2\\
+        0 & 1 & 2
+    \end{vmatrix}
+    \begin{Vmatrix}
+        0 & 1 & 2\\
+        0 & 1 & 2\\
+        0 & 1 & 2
+    \end{Vmatrix}_{i}^2
+\end{equation}
+
+
+
+\end{document}
