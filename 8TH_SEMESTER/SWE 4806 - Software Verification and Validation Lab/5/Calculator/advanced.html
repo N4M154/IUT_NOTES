@@ -1,0 +1,72 @@
+<!-- 210042112 -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <p class="eyebrow">Advanced Calculator</p>
+      <h1>power &middot; modulo</h1>
+
+      <div class="card">
+        <div class="field">
+          <label for="a">Base (A)</label>
+          <input type="number" id="a" value="4" />
+        </div>
+        <div class="field">
+          <label for="b">Exponent / Divisor (B)</label>
+          <input type="number" id="b" value="3" />
+        </div>
+
+        <div class="op-row">
+          <button data-op="Pow" class="active">Power (a^b)</button>
+          <button data-op="Modulo">Modulo (a % b)</button>
+        </div>
+
+        <button class="calc-button" id="calcBtn">Calculate</button>
+
+        <div class="result">
+          <span class="label">Result</span>
+          <span class="value" id="output">&mdash;</span>
+        </div>
+      </div>
+
+      <a class="back" href="index.html">&larr; Back to home</a>
+    </div>
+
+    <!-- src/advanced.js is a plain CommonJS module (module.exports = {...}),
+         written for Node/Jest. This shim gives it a `module` global to
+         write to when loaded directly as a browser <script>, without
+         touching src/advanced.js itself. -->
+    <script>
+      window.module = { exports: {} };
+    </script>
+    <script src="src/advanced.js"></script>
+    <script>
+      window.advancedCalc = window.module.exports;
+
+      let currentOp = "Pow";
+      const opButtons = document.querySelectorAll(".op-row button");
+      opButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          opButtons.forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+          currentOp = btn.dataset.op;
+        });
+      });
+
+      document.getElementById("calcBtn").addEventListener("click", () => {
+        const a = parseFloat(document.getElementById("a").value);
+        const b = parseFloat(document.getElementById("b").value);
+        const result = window.advancedCalc[currentOp](a, b);
+        document.getElementById("output").textContent = result;
+      });
+    </script>
+  </body>
+</html>
+<!-- -_- N4M154 -_- -->

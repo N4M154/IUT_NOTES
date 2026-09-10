@@ -1,0 +1,93 @@
+<!-- 210042112 -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="wrap">
+      <p class="eyebrow">Custom Calculator</p>
+      <h1>Compound Interest</h1>
+
+      <div class="card">
+        <div class="field">
+          <label for="principal">Principal</label>
+          <input type="number" id="principal" value="1000" />
+        </div>
+        <div class="field">
+          <label for="rate">Annual Rate (%)</label>
+          <input type="number" id="rate" value="10" />
+        </div>
+        <div class="field">
+          <label for="time">Time (years)</label>
+          <input type="number" id="time" value="2" />
+        </div>
+
+        <button class="calc-button" id="calcBtn">Calculate</button>
+
+        <div class="result">
+          <span class="label">Final Amount</span>
+          <span class="value" id="amountOut">&mdash;</span>
+        </div>
+        <div class="result">
+          <span class="label">Interest Earned</span>
+          <span class="value" id="interestOut">&mdash;</span>
+        </div>
+      </div>
+
+      <a class="back" href="index.html">&larr; Back to home</a>
+    </div>
+
+    <!-- src/basic.js, src/advanced.js, and src/custom.js are plain CommonJS
+         modules (require(...) / module.exports = {...}) written for
+         Node/Jest. This shim gives them the `require`/`module` globals they
+         need to load directly as browser <script> tags, without touching
+         the src files themselves. Each module's export is captured into
+         window.__modules right after it runs, keyed by its require() path,
+         so custom.js's require("./basic") / require("./advanced") resolve
+         to the same objects Node would give it. -->
+    <script>
+      window.__modules = {};
+      window.require = (path) => window.__modules[path.replace("./", "")];
+      window.module = { exports: {} };
+    </script>
+    <script src="src/basic.js"></script>
+    <script>
+      window.__modules.basic = window.module.exports;
+      window.module = { exports: {} };
+    </script>
+    <script src="src/advanced.js"></script>
+    <script>
+      window.__modules.advanced = window.module.exports;
+      window.module = { exports: {} };
+    </script>
+    <script src="src/custom.js"></script>
+    <script>
+      window.customCalc = window.module.exports;
+
+      document.getElementById("calcBtn").addEventListener("click", () => {
+        const principal = parseFloat(
+          document.getElementById("principal").value,
+        );
+        const rate = parseFloat(document.getElementById("rate").value);
+        const time = parseFloat(document.getElementById("time").value);
+
+        const { amount, interest } = window.customCalc.compoundInterest(
+          principal,
+          rate,
+          time,
+        );
+        document.getElementById("amountOut").textContent = amount.toFixed(2);
+        document.getElementById("interestOut").textContent =
+          interest.toFixed(2);
+      });
+    </script>
+  </body>
+</html>
+
+<!-- -_- N4M154 -_- -->
