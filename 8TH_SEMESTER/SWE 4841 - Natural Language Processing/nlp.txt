@@ -1,0 +1,13 @@
+1 hot is not done in the input.
+
+why are activation functions needed?=>with respect to wx+b
+
+word2vec er age ppmi used hoise. why?
+
+logistic regression convex keno?
+
+partial diff keno eto simple?
+
+keno logisitic regression complex problem solve korte parena? layers keno lage?
+
+word2vec keno SoftMax k beat kore?kivabe beat kore?
