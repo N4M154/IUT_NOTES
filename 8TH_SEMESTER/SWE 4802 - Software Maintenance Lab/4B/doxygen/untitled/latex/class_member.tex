@@ -1,0 +1,117 @@
+\doxysection{Member Class Reference}
+\hypertarget{class_member}{}\label{class_member}\index{Member@{Member}}
+
+
+Represents a library member who can borrow books.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_member_a13f761868782c98c75f209bfb836d9dd}{Member}} (String name, int member\+Id)
+\begin{DoxyCompactList}\small\item\em Constructs a new \doxylink{class_member}{Member}. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{class_member_a02cc218776f82e737dd56bda72944aed}{get\+Name}} ()
+\item 
+int \mbox{\hyperlink{class_member_ae433f1233430f5d8c5160262b86d69e3}{get\+Member\+Id}} ()
+\item 
+List$<$ \mbox{\hyperlink{class_book}{Book}} $>$ \mbox{\hyperlink{class_member_a64549e97321299c9dfb724bee3cea22c}{get\+Borrowed\+Books}} ()
+\item 
+void \mbox{\hyperlink{class_member_a8c1ee76db0267b72321aac9bee7927e1}{borrow}} (\mbox{\hyperlink{class_book}{Book}} book)
+\begin{DoxyCompactList}\small\item\em Adds a book to this member\textquotesingle{}s borrowed list. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_member_a38378e465d06040e17ec018464ede5e5}{give\+Back}} (\mbox{\hyperlink{class_book}{Book}} book)
+\begin{DoxyCompactList}\small\item\em Removes a book from this member\textquotesingle{}s borrowed list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a library member who can borrow books. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_member_a13f761868782c98c75f209bfb836d9dd}\label{class_member_a13f761868782c98c75f209bfb836d9dd} 
+\index{Member@{Member}!Member@{Member}}
+\index{Member@{Member}!Member@{Member}}
+\doxysubsubsection{\texorpdfstring{Member()}{Member()}}
+{\footnotesize\ttfamily Member.\+Member (\begin{DoxyParamCaption}\item[{String}]{name,  }\item[{int}]{member\+Id }\end{DoxyParamCaption})}
+
+
+
+Constructs a new \doxylink{class_member}{Member}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & the member\textquotesingle{}s full name \\
+\hline
+{\em member\+Id} & a unique numeric identifier for the member \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_member_a8c1ee76db0267b72321aac9bee7927e1}\label{class_member_a8c1ee76db0267b72321aac9bee7927e1} 
+\index{Member@{Member}!borrow@{borrow}}
+\index{borrow@{borrow}!Member@{Member}}
+\doxysubsubsection{\texorpdfstring{borrow()}{borrow()}}
+{\footnotesize\ttfamily void Member.\+borrow (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_book}{Book}}}]{book }\end{DoxyParamCaption})}
+
+
+
+Adds a book to this member\textquotesingle{}s borrowed list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em book} & the book being borrowed \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_member_a64549e97321299c9dfb724bee3cea22c}\label{class_member_a64549e97321299c9dfb724bee3cea22c} 
+\index{Member@{Member}!getBorrowedBooks@{getBorrowedBooks}}
+\index{getBorrowedBooks@{getBorrowedBooks}!Member@{Member}}
+\doxysubsubsection{\texorpdfstring{getBorrowedBooks()}{getBorrowedBooks()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_book}{Book}} $>$ Member.\+get\+Borrowed\+Books (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+the list of books currently borrowed by this member 
+\end{DoxyReturn}
+\Hypertarget{class_member_ae433f1233430f5d8c5160262b86d69e3}\label{class_member_ae433f1233430f5d8c5160262b86d69e3} 
+\index{Member@{Member}!getMemberId@{getMemberId}}
+\index{getMemberId@{getMemberId}!Member@{Member}}
+\doxysubsubsection{\texorpdfstring{getMemberId()}{getMemberId()}}
+{\footnotesize\ttfamily int Member.\+get\+Member\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+the member\textquotesingle{}s ID 
+\end{DoxyReturn}
+\Hypertarget{class_member_a02cc218776f82e737dd56bda72944aed}\label{class_member_a02cc218776f82e737dd56bda72944aed} 
+\index{Member@{Member}!getName@{getName}}
+\index{getName@{getName}!Member@{Member}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String Member.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+the member\textquotesingle{}s name 
+\end{DoxyReturn}
+\Hypertarget{class_member_a38378e465d06040e17ec018464ede5e5}\label{class_member_a38378e465d06040e17ec018464ede5e5} 
+\index{Member@{Member}!giveBack@{giveBack}}
+\index{giveBack@{giveBack}!Member@{Member}}
+\doxysubsubsection{\texorpdfstring{giveBack()}{giveBack()}}
+{\footnotesize\ttfamily void Member.\+give\+Back (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_book}{Book}}}]{book }\end{DoxyParamCaption})}
+
+
+
+Removes a book from this member\textquotesingle{}s borrowed list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em book} & the book being returned \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{class_member_a38378e465d06040e17ec018464ede5e5_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{_member_8java}{Member.\+java}}\end{DoxyCompactItemize}

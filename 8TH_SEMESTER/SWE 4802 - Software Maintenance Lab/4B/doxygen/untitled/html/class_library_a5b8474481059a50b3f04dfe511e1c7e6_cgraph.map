@@ -1,0 +1,5 @@
+<map id="Library.returnBook" name="Library.returnBook">
+<area shape="rect" id="Node000001" title="Returns a previously checked&#45;out book back to the catalog." alt="" coords="5,5,132,32"/>
+<area shape="rect" id="Node000002" href="$class_member.html#a38378e465d06040e17ec018464ede5e5" title="Removes a book from this member&#39;s borrowed list." alt="" coords="180,5,306,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,16,167,18,162,19,132,21"/>
+</map>

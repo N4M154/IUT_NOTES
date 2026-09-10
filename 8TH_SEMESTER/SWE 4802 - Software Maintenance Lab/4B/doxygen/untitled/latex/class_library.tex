@@ -1,0 +1,129 @@
+\doxysection{Library Class Reference}
+\hypertarget{class_library}{}\label{class_library}\index{Library@{Library}}
+
+
+Central class that manages the book catalog and members, and handles checkout/return operations.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_library_a774a3615cb0dc15c30d1de3e2675cbba}{Library}} ()
+\begin{DoxyCompactList}\small\item\em Constructs an empty \doxylink{class_library}{Library}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_a720c17576237d33bfc499d01938a508e}{add\+Book}} (\mbox{\hyperlink{class_book}{Book}} book)
+\begin{DoxyCompactList}\small\item\em Adds a new book to the catalog. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_a09df3ad96e8ca5307a120e7319077b64}{add\+Member}} (\mbox{\hyperlink{class_member}{Member}} member)
+\begin{DoxyCompactList}\small\item\em Registers a new member with the library. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_a231800b9bf7f64ba66e143e79ceabb85}{check\+Out\+Book}} (String isbn, int member\+Id)
+\begin{DoxyCompactList}\small\item\em Attempts to check out a book for a member, identified by ISBN. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_a5b8474481059a50b3f04dfe511e1c7e6}{return\+Book}} (String isbn, int member\+Id)
+\begin{DoxyCompactList}\small\item\em Returns a previously checked-\/out book back to the catalog. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_a59ab5e21679c8e6d75b27991d6815010}{print\+Catalog}} ()
+\begin{DoxyCompactList}\small\item\em Prints the full catalog with each book\textquotesingle{}s status. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Central class that manages the book catalog and members, and handles checkout/return operations. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_library_a774a3615cb0dc15c30d1de3e2675cbba}\label{class_library_a774a3615cb0dc15c30d1de3e2675cbba} 
+\index{Library@{Library}!Library@{Library}}
+\index{Library@{Library}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{Library()}{Library()}}
+{\footnotesize\ttfamily Library.\+Library (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructs an empty \doxylink{class_library}{Library}. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_library_a720c17576237d33bfc499d01938a508e}\label{class_library_a720c17576237d33bfc499d01938a508e} 
+\index{Library@{Library}!addBook@{addBook}}
+\index{addBook@{addBook}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{addBook()}{addBook()}}
+{\footnotesize\ttfamily void Library.\+add\+Book (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_book}{Book}}}]{book }\end{DoxyParamCaption})}
+
+
+
+Adds a new book to the catalog. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em book} & the book to add \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_library_a09df3ad96e8ca5307a120e7319077b64}\label{class_library_a09df3ad96e8ca5307a120e7319077b64} 
+\index{Library@{Library}!addMember@{addMember}}
+\index{addMember@{addMember}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{addMember()}{addMember()}}
+{\footnotesize\ttfamily void Library.\+add\+Member (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_member}{Member}}}]{member }\end{DoxyParamCaption})}
+
+
+
+Registers a new member with the library. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em member} & the member to register \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_library_a231800b9bf7f64ba66e143e79ceabb85}\label{class_library_a231800b9bf7f64ba66e143e79ceabb85} 
+\index{Library@{Library}!checkOutBook@{checkOutBook}}
+\index{checkOutBook@{checkOutBook}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{checkOutBook()}{checkOutBook()}}
+{\footnotesize\ttfamily void Library.\+check\+Out\+Book (\begin{DoxyParamCaption}\item[{String}]{isbn,  }\item[{int}]{member\+Id }\end{DoxyParamCaption})}
+
+
+
+Attempts to check out a book for a member, identified by ISBN. 
+
+NOTE\+: this method is intentionally long and does several jobs at once (lookup + validation + state change + printing). It\textquotesingle{}s a good candidate for IntelliJ\textquotesingle{}s "{}\+Extract Method"{} refactoring -- split it into find\+Book\+By\+Isbn(), and a separate print/notify step.
+
+
+\begin{DoxyParams}{Parameters}
+{\em isbn} & ISBN of the book to check out \\
+\hline
+{\em member\+Id} & ID of the member checking out the book \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_library_a59ab5e21679c8e6d75b27991d6815010}\label{class_library_a59ab5e21679c8e6d75b27991d6815010} 
+\index{Library@{Library}!printCatalog@{printCatalog}}
+\index{printCatalog@{printCatalog}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{printCatalog()}{printCatalog()}}
+{\footnotesize\ttfamily void Library.\+print\+Catalog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Prints the full catalog with each book\textquotesingle{}s status. 
+
+NOTE\+: this duplicates the formatting logic in \doxylink{class_book_a6efb5d95315529d5988e6cc407d3fd24}{Book.\+describe()}. A cleaner design just calls book.\+describe() here instead of rebuilding the string -- try this as an IntelliJ refactor. \Hypertarget{class_library_a5b8474481059a50b3f04dfe511e1c7e6}\label{class_library_a5b8474481059a50b3f04dfe511e1c7e6} 
+\index{Library@{Library}!returnBook@{returnBook}}
+\index{returnBook@{returnBook}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{returnBook()}{returnBook()}}
+{\footnotesize\ttfamily void Library.\+return\+Book (\begin{DoxyParamCaption}\item[{String}]{isbn,  }\item[{int}]{member\+Id }\end{DoxyParamCaption})}
+
+
+
+Returns a previously checked-\/out book back to the catalog. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em isbn} & ISBN of the book being returned \\
+\hline
+{\em member\+Id} & ID of the member returning the book \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{class_library_a5b8474481059a50b3f04dfe511e1c7e6_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{_library_8java}{Library.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copy/Paste Detector Report</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: #f7fafc; color: #2d3748; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .header { background: #fff; box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06); padding: 1rem 0; }
+    .header-inner { max-width: 80rem; margin: 0 auto; padding: 0 1rem; }
+    .header h1 { font-size: 1.875rem; font-weight: 600; color: #2d3748; margin: 0; }
+    .main { max-width: 80rem; margin: 2rem auto; padding: 0 1rem; }
+    .card { background: #fff; box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06); border-radius: 0.25rem; padding: 1.5rem; margin-bottom: 2rem; }
+    h2 { font-size: 1.5rem; font-weight: 600; color: #4a5568; margin: 0 0 1rem 0; }
+    .dashboard { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+    .stat-card { padding: 1rem; border-radius: 0.25rem; text-align: center; }
+    .stat-card h3 { font-size: 1.125rem; font-weight: 600; margin: 0 0 0.5rem 0; }
+    .stat-card .val { font-size: 2.25rem; font-weight: 700; }
+    .stat-blue { background: #bee3f8; color: #2a4365; }
+    .stat-green { background: #c6f6d5; color: #276749; }
+    .stat-yellow { background: #fefcbf; color: #975a16; }
+    .stat-red { background: #fed7d7; color: #9b2c2c; }
+    table { width: 100%; border-collapse: collapse; }
+    thead th { background: #edf2f7; color: #718096; text-transform: uppercase; font-size: 0.75rem; font-weight: 600; padding: 0.75rem 1.5rem; text-align: left; }
+    tbody td { padding: 0.75rem 1.5rem; border-bottom: 1px solid #edf2f7; font-size: 0.875rem; }
+    tbody tr:hover { background: #f7fafc; }
+    .clone-section { margin-bottom: 2rem; }
+    .clone-section h2 { border-bottom: 2px solid #edf2f7; padding-bottom: 0.5rem; }
+    .clone-item { padding: 1rem 0; border-bottom: 1px solid #edf2f7; }
+    .clone-item:last-child { border-bottom: none; }
+    .clone-info { color: #718096; font-size: 0.875rem; margin-bottom: 0.25rem; }
+    .toggle-btn { background: #a0aec0; color: #fff; border: none; padding: 0.125rem 0.5rem; font-size: 0.75rem; border-radius: 0.25rem; cursor: pointer; margin-left: 0.5rem; }
+    .toggle-btn:focus { outline: none; }
+    .code-block { background: #f7fafc; border: 1px solid #edf2f7; border-radius: 0.25rem; padding: 1rem; margin-top: 0.5rem; font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 0.875rem; color: #2d3748; white-space: pre-wrap; overflow-x: auto; display: none; }
+    .code-block.visible { display: block; }
+    .no-dupes { color: #27ae60; font-weight: 700; font-size: 1.125rem; }
+    .footer { margin-top: 3rem; padding: 2rem 0; border-top: 1px solid #e0e0e0; text-align: center; font-family: -apple-system, sans-serif; color: #666; }
+    .footer p { margin: 0.5rem 0; font-size: 0.875rem; }
+    .footer a { color: #0066cc; }
+    .footer .small { font-size: 0.75rem; color: #999; }
+    @media (max-width: 768px) { .dashboard { grid-template-columns: repeat(2, 1fr); } }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <h1>jscpd - copy/paste report</h1>
+    </div>
+  </header>
+
+  <div class="main">
+    <div class="card">
+      <section>
+        <h2>Dashboard</h2>
+        <div class="dashboard">
+          <div class="stat-card stat-blue">
+            <h3>Total Files</h3>
+            <div class="val">47</div>
+          </div>
+          <div class="stat-card stat-green">
+            <h3>Total Lines of Code</h3>
+            <div class="val">4013</div>
+          </div>
+          <div class="stat-card stat-yellow">
+            <h3>Number of Clones</h3>
+            <div class="val">18</div>
+          </div>
+          <div class="stat-card stat-red">
+            <h3>Duplicated Lines</h3>
+            <div class="val">242 (6.03%)</div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="card">
+      <section>
+        <h2>Formats with Duplications</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Format</th>
+              <th>Files</th>
+              <th>Lines</th>
+              <th>Clones</th>
+              <th>Duplicated Lines</th>
+              <th>Duplicated Tokens</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            <tr>
+              <td><a href="#css-clones">css</a></td>
+              <td>3</td>
+              <td>170</td>
+              <td>0</td>
+              <td>0 (0.00%)</td>
+              <td>0 (0.00%)</td>
+            </tr>
+            
+            <tr>
+              <td><a href="#javascript-clones">javascript</a></td>
+              <td>17</td>
+              <td>734</td>
+              <td>2</td>
+              <td>18 (2.45%)</td>
+              <td>72 (2.14%)</td>
+            </tr>
+            
+            <tr>
+              <td><a href="#jsx-clones">jsx</a></td>
+              <td>24</td>
+              <td>3075</td>
+              <td>16</td>
+              <td>224 (7.28%)</td>
+              <td>967 (8.05%)</td>
+            </tr>
+            
+            <tr>
+              <td><a href="#markdown-clones">markdown</a></td>
+              <td>1</td>
+              <td>8</td>
+              <td>0</td>
+              <td>0 (0.00%)</td>
+              <td>0 (0.00%)</td>
+            </tr>
+            
+            <tr>
+              <td><a href="#markup-clones">markup</a></td>
+              <td>2</td>
+              <td>26</td>
+              <td>0</td>
+              <td>0 (0.00%)</td>
+              <td>0 (0.00%)</td>
+            </tr>
+            
+            <tr style="font-weight: 700;">
+              <td>Total</td>
+              <td>47</td>
+              <td>4013</td>
+              <td>18</td>
+              <td>242 (6.03%)</td>
+              <td>1039 (6.31%)</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+
+    
+    
+    <div class="card">
+      <section class="clone-section">
+        <a name="javascript-clones"></a>
+        <h2>javascript</h2>
+        <div>
+          
+          <div class="clone-item">
+            <div class="clone-info">
+              api\controllers\review.controller.js (Line 87:30 - Line 97:6),
+              api\controllers\review.controller.js (Line 189:31 - Line 199:6)
+            </div>
+            <div>
+              <button class="toggle-btn" onclick="toggle('code-javascript-1')">Show code</button>
+            </div>
+            <pre id="code-javascript-1" class="code-block">    const { id } = req.params;
+
+    const review = await Review.findById(id);
+    // .populate(&#34;author&#34;, &#34;email&#34;);
+
+    if (!review) {
+      return res.status(404).json({
+        success: false,
+        message: &#34;Review not found&#34;,
+      });
+    }</pre>
+          </div>
+          
+          <div class="clone-item">
+            <div class="clone-info">
+              api\controllers\review.controller.js (Line 89:44 - Line 97:6),
+              api\controllers\review.controller.js (Line 127:50 - Line 134:6)
+            </div>
+            <div>
+              <button class="toggle-btn" onclick="toggle('code-javascript-2')">Show code</button>
+            </div>
+            <pre id="code-javascript-2" class="code-block">    const review = await Review.findById(id);
+    // .populate(&#34;author&#34;, &#34;email&#34;);
+
+    if (!review) {
+      return res.status(404).json({
+        success: false,
+        message: &#34;Review not found&#34;,
+      });
+    }</pre>
+          </div>
+          
+        </div>
+      </section>
+    </div>
+    
+    <div class="card">
+      <section class="clone-section">
+        <a name="jsx-clones"></a>
+        <h2>jsx</h2>
+        <div>
+          
+          <div class="clone-item">
+            <div class="clone-info">
+              client\src\components\CarouselCard.jsx (Line 4:3 - Line 40:11),
+              client\src\components\ReviewCard.jsx (Line 52:3 - Line 88:11)
+            </div>
+            <div>
+              <button class="toggle-btn" onclick="toggle('code-jsx-1')">Show code</button>
+            </div>
+            <pre id="code-jsx-1" class="code-block">  const getReactionCount = (type) =&#62; {
+    return review.reactions?.filter((r) =&#62; r.reactionType === type).length || 0;
+  };
+
+  const formatDate = (dateString) =&#62; {
+    return new Date(dateString).toLocaleDateString(&#34;en-US&#34;, {
+      year: &#34;numeric&#34;,
+      month: &#34;short&#34;,
+      day: &#34;numeric&#34;,
+    });
+  };
+
+  const getCategoryColor = (category) =&#62; {
+    const colors = {
+      anime:
+        &#34;bg-pink-500/20 text-pink-500 border-pink-500/30 dark:text-pink-300&#34;,
+      movie:
+        &#34;bg-blue-500/20 text-blue-500 border-blue-500/30 dark:text-blue-300&#34;,
+      &#34;tv show&#34;:
+        &#34;bg-green-500/20 text-green-500 border-green-500/30 dark:text-green-300&#34;,
+      music:
+        &#34;bg-purple-500/20 text-purple-500 border-purple-500/30 dark:text-purple-300&#34;,
+      book: &#34;bg-yellow-500/20 text-yellow-500 border-yellow-500/30 dark:text-yellow-300&#34;,
+    };
+    return (
+      colors[category] || &#34;bg-gray-500/20 text-gray-300 border-gray-500/30&#34;
+    );
+  };
+
+  const getReactionColor = (type) =&#62; {
+    const colors = {
+      funny:
+        &#34;bg-green-500/20 text-green-500 dark:text-green-200 border-green-500/30&#34;,
+      creative:
+        &#34;bg-yellow-500/20 text-yellow-500 dark:text-yellow-200 border-yellow-500/30&#34;,
+      love: &#34;bg-pink-500/20 text-pink-500 dark:text-pink-200 border-pink-500/30&#34;,
+      sad: &#34;bg-blue-500/20 text-blue-500 dark:text-blue-200 border-blue-500/30&#34;,</pre>
+          </div>
+          
+          <div class="clone-item">
+            <div class="clone-info">
+              client\src\components\Header.jsx (Line 88:17 - Line 96:21),
+              client\src\pages\SignUp.jsx (Line 199:17 - Line 207:21)
+            </div>
+            <div>
+              <button class="toggle-btn" onclick="toggle('code-jsx-2')">Show code</button>
+            </div>
+            <pre id="code-jsx-2" class="code-block">                &#62;
+                  &#60;path
+                    strokeLinecap=&#34;round&#34;
+                    strokeLinejoin=&#34;round&#34;
+                    strokeWidth={2}
+                    d=&#34;M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z&#34;
+                  /&#62;
+                &#60;/svg&#62;
+              &#60;/div&#62;</pre>
+          </div>
+          
+          <div class="clone-item">
+            <div class="clone-info">
+              client\src\components\ReviewCarousel.jsx (Line 31:34 - Line 36:32),
+              client\src\components\ReviewCarousel.jsx (Line 64:30 - Line 69:32)
+            </div>
+            <div>
+              <button class="toggle-btn" onclick="toggle('code-jsx-3')">Show code</button>
+            </div>
+            <pre id="code-jsx-3" class="code-block">      { reactionType: &#34;creative&#34; },
+      { reactionType: &#34;love&#34; },
+      { reactionType: &#34;creative&#34; },
+      { reactionType: &#34;love&#34; },
+      { reactionType: &#34;funny&#34; },
+      { reactionType: &#34;love&#34; },</pre>
+          </div>
+          
+          <div class="clone-item">
+            <div class="clone-info">
+              client\src\pages\Landing.jsx (Line 8:21 - Line 21:7),
+              client\src\pages\SignIn.jsx (Line 178:10 - Line 191:7)
+            </div>
+            <div>
+              <button class="toggle-btn" onclick="toggle('code-jsx-4')">Show code</button>
+            </div>
+            <pre id="code-jsx-4" class="code-block">      {/* Header */}
+      &#60;header className=&#34;fixed w-full border-b-2 border-yellow-300/40 bg-yellow-100/60 dark:bg-black dark:border-gray-900 backdrop-blur-sm py-4 z-50 transition-all duration-200&#34;&#62;
+        &#60;div className=&#34;container mx-auto px-4 flex justify-between items-center&#34;&#62;
+          &#60;h1 className=&#34;text-xl font-light text-black dark:text-yellow-200 ml-5&#34;&#62;
+            N4M154
+          &#60;/h1&#62;
+          &#60;nav className=&#34;hidden md:flex space-x-6&#34;&#62;&#60;/nav&#62;
+          &#60;div className=&#34;mr-5&#34;&#62;
+            &#60;ThemeToggle /&#62;
+          &#60;/div&#62;
+        &#60;/div&#62;
+      &#60;/header&#62;
+
+      {/* Hero Section */}</pre>
+          </div>
+          
+          <div class="clone-item">
+            <div class="clone-info">
+              client\src\pages\Profile.jsx (Line 231:57 - Line 236:46),
+              client\src\pages\Review.jsx (Line 41:67 - Line 46:44)
+            </div>
+            <div>
+              <button class="toggle-btn" onclick="toggle('code-jsx-5')">Show code</button>
+            </div>
+            <pre id="code-jsx-5" class="code-block">        const response = await fetch(&#34;/api/user/profile&#34;, {
+          headers: { &#34;Content-Type&#34;: &#34;application/json&#34; },
+        });
+
+        if (response.ok) {
+          const data = await response.json();</pre>
+          </div>
+          
+          <div class="clone-item">
+            <div class="clone-info">
+              client\src\pages\ReviewForm.jsx (Line 40:56 - Line 48:25),
+              client\src\pages\SignIn.jsx (Line 158:49 - Line 165:25)
+            </div>
+            <div>
+              <button class="toggle-btn" onclick="toggle('code-jsx-6')">Show code</button>
+            </div>
+            <pre id="code-jsx-6" class="code-block">      const response = await fetch(&#34;api/review/reviews&#34;, {
+        method: &#34;POST&#34;,
+        headers: {
+          &#34;Content-Type&#34;: &#34;application/json&#34;,
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();</pre>
+          </div>
+          
+          <div class="clone-item">
+            <div class="clone-info">
+              client\src\pages\ReviewForm.jsx (Line 40:56 - Line 48:42),
+              client\src\pages\SignUp.jsx (Line 152:49 - Line 159:37)
+            </div>
+            <div>
+              <button class="toggle-btn" onclick="toggle('code-jsx-7')">Show code</button>
+            </div>
+            <pre id="code-jsx-7" class="code-block">      const response = await fetch(&#34;api/review/reviews&#34;, {
+        method: &#34;POST&#34;,
+        headers: {
+          &#34;Content-Type&#34;: &#34;application/json&#34;,
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();</pre>
+          </div>
+          
+          <div class="clone-item">
+            <div class="clone-info">
+              client\src\pages\ReviewForm.jsx (Line 143:23 - Line 148:90),
+              client\src\pages\ReviewForm.jsx (Line 159:16 - Line 164:90)
+            </div>
+            <div>
+              <button class="toggle-btn" onclick="toggle('code-jsx-8')">Show code</button>
+            </div>
+            <pre id="code-jsx-8" class="code-block">              &#60;/select&#62;
+              &#60;div className=&#34;absolute inset-0 rounded-xl bg-gradient-to-r from-yellow-50 to-pink-100 dark:from-black/50 dark:to-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-200 -z-10&#34;&#62;&#60;/div&#62;
+            &#60;/div&#62;
+
+            &#60;div className=&#34;relative group&#34;&#62;
+              &#60;label className=&#34;block text-sm font-thin text-black dark:text-white mb-2&#34;&#62;</pre>
+          </div>
+          
+          <div class="clone-item">
+            <div class="clone-info">
+              client\src\pages\SignIn.jsx (Line 149:31 - Line 156:10),
+              client\src\pages\SignUp.jsx (Line 142:31 - Line 149:10)
+            </div>
+            <div>
+              <button class="toggle-btn" onclick="toggle('code-jsx-9')">Show code</button>
+            </div>
+            <pre id="code-jsx-9" class="code-block">  const dispatch = useDispatch();
+  const handleChange = (e) =&#62; {
+    setFormData({ ...formData, [e.target.id]: e.target.value });
+  };
+
+  const handleSubmit = async (e) =&#62; {
+    e.preventDefault();
+    try {</pre>
+          </div>
+          
+          <div class="clone-item">
+            <div class="clone-info">
+              client\src\pages\SignIn.jsx (Line 159:9 - Line 166:9),
+              client\src\pages\SignUp.jsx (Line 153:9 - Line 160:14)
+            </div>
+            <div>
+              <button class="toggle-btn" onclick="toggle('code-jsx-10')">Show code</button>
+            </div>
+            <pre id="code-jsx-10" class="code-block">        method: &#34;POST&#34;,
+        headers: {
+          &#34;Content-Type&#34;: &#34;application/json&#34;,
+        },
+        body: JSON.stringify(formData),
+      });
+      const data = await res.json();
+      if (data.success === false) {</pre>
+          </div>
+          
+          <div class="clone-item">
+            <div class="clone-info">
+              client\src\pages\SignIn.jsx (Line 173:36 - Line 209:23),
+              client\src\pages\SignUp.jsx (Line 169:20 - Line 204:23)
+            </div>
+            <div>
+              <button class="toggle-btn" onclick="toggle('code-jsx-11')">Show code</button>
+            </div>
+            <pre id="code-jsx-11" class="code-block">      dispatch(signInFailure(error));
+    }
+  };
+
+  return (
+    &#60;div&#62;
+      &#60;header className=&#34;fixed w-full border-b-2 border-yellow-300/40 bg-yellow-100/60 dark:bg-black dark:border-gray-900 backdrop-blur-sm py-4 z-50 transition-all duration-200&#34;&#62;
+        &#60;div className=&#34;container mx-auto px-4 flex justify-between items-center&#34;&#62;
+          &#60;h1 className=&#34;text-xl font-light text-black dark:text-yellow-200 ml-5&#34;&#62;
+            N4M154
+          &#60;/h1&#62;
+          &#60;nav className=&#34;hidden md:flex space-x-6&#34;&#62;&#60;/nav&#62;
+          &#60;div className=&#34;mr-5&#34;&#62;
+            &#60;ThemeToggle /&#62;
+          &#60;/div&#62;
+        &#60;/div&#62;
+      &#60;/header&#62;
+
+      &#60;div className=&#34;min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-b from-yellow-50 to-yellow-100 dark:from-black dark:to-black&#34;&#62;
+        {/* Main form container */}
+        &#60;div className=&#34;relative z-10 w-full max-w-md px-6 form-slide-in&#34;&#62;
+          &#60;div className=&#34;dark:border-b-2 dark:border-r-2 dark:border-pink-300/40 rounded-3xl p-8 shadow-xl hover:scale-105 transition-all duration-300 form-fade-in bg-white/90 dark:bg-black/70&#34;&#62;
+            {/* Header with icon */}
+            &#60;div className=&#34;text-center mb-8&#34;&#62;
+              &#60;div className=&#34;w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4 animate-pulse-glow icon-glow animate-bounce&#34;&#62;
+                &#60;svg
+                  className=&#34;w-8 h-8 text-pink-500&#34;
+                  fill=&#34;none&#34;
+                  stroke=&#34;currentColor&#34;
+                  viewBox=&#34;0 0 24 24&#34;
+                  aria-hidden=&#34;true&#34;
+                &#62;
+                  &#60;path
+                    strokeLinecap=&#34;round&#34;
+                    strokeLinejoin=&#34;round&#34;
+                    strokeWidth={2}
+                    d=&#34;M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1&#34;</pre>
+          </div>
+          
+          <div class="clone-item">
+            <div class="clone-info">
+              client\src\pages\SignIn.jsx (Line 216:69 - Line 223:22),
+              client\src\pages\SignUp.jsx (Line 211:71 - Line 218:22)
+            </div>
+            <div>
+              <button class="toggle-btn" onclick="toggle('code-jsx-12')">Show code</button>
+            </div>
+            <pre id="code-jsx-12" class="code-block">              &#60;p className=&#34;text-yellow-500&#34;&#62;Sign in to your account&#60;/p&#62;
+            &#60;/div&#62;
+
+            &#60;form onSubmit={handleSubmit} className=&#34;space-y-6&#34;&#62;
+              {/* Email input */}
+              &#60;div className=&#34;relative group&#34;&#62;
+                &#60;input
+                  id=&#34;email&#34;</pre>
+          </div>
+          
+          <div class="clone-item">
+            <div class="clone-info">
+              client\src\pages\SignIn.jsx (Line 220:15 - Line 254:123),
+              client\src\pages\SignUp.jsx (Line 228:15 - Line 262:123)
+            </div>
+            <div>
+              <button class="toggle-btn" onclick="toggle('code-jsx-13')">Show code</button>
+            </div>
+            <pre id="code-jsx-13" class="code-block">              {/* Email input */}
+              &#60;div className=&#34;relative group&#34;&#62;
+                &#60;input
+                  id=&#34;email&#34;
+                  className=&#34;w-full px-4 py-4 bg-yellow-100 dark:bg-yellow-200/20 rounded-2xl text-black dark:text-white font-thin placeholder-yellow-400 focus:outline-none transition-all duration-200 backdrop-blur-sm input-focus&#34;
+                  placeholder=&#34;Email&#34;
+                  type=&#34;email&#34;
+                  value={formData.email || &#34;&#34;}
+                  onChange={handleChange}
+                  required
+                /&#62;
+              &#60;/div&#62;
+
+              {/* Password input */}
+              &#60;div className=&#34;relative group&#34;&#62;
+                &#60;input
+                  id=&#34;password&#34;
+                  className=&#34;w-full px-4 py-4 bg-yellow-100 dark:bg-yellow-200/20 rounded-2xl text-black dark:text-white font-thin placeholder-yellow-400 focus:outline-none transition-all duration-200 backdrop-blur-sm input-focus&#34;
+                  placeholder=&#34;Password&#34;
+                  type=&#34;password&#34;
+                  value={formData.password || &#34;&#34;}
+                  onChange={handleChange}
+                  required
+                /&#62;
+              &#60;/div&#62;
+
+              {/* Submit button */}
+              &#60;button
+                type=&#34;submit&#34;
+                disabled={loading}
+                className=&#34;w-full py-4 dark:bg-yellow-200 bg-black text-yellow-200 dark:text-black font-thin rounded-xl transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed relative overflow-hidden&#34;
+              &#62;
+                {loading ? (
+                  &#60;div className=&#34;flex items-center justify-center&#34;&#62;
+                    &#60;div className=&#34;w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin mr-2&#34;&#62;&#60;/div&#62;</pre>
+          </div>
+          
+          <div class="clone-item">
+            <div class="clone-info">
+              client\src\pages\SignIn.jsx (Line 227:41 - Line 236:22),
+              client\src\pages\SignUp.jsx (Line 222:44 - Line 231:22)
+            </div>
+            <div>
+              <button class="toggle-btn" onclick="toggle('code-jsx-14')">Show code</button>
+            </div>
+            <pre id="code-jsx-14" class="code-block">                  value={formData.email || &#34;&#34;}
+                  onChange={handleChange}
+                  required
+                /&#62;
+              &#60;/div&#62;
+
+              {/* Password input */}
+              &#60;div className=&#34;relative group&#34;&#62;
+                &#60;input
+                  id=&#34;password&#34;</pre>
+          </div>
+          
+          <div class="clone-item">
+            <div class="clone-info">
+              client\src\pages\SignIn.jsx (Line 227:46 - Line 256:19),
+              client\src\pages\SignUp.jsx (Line 235:46 - Line 264:19)
+            </div>
+            <div>
+              <button class="toggle-btn" onclick="toggle('code-jsx-15')">Show code</button>
+            </div>
+            <pre id="code-jsx-15" class="code-block">                  value={formData.email || &#34;&#34;}
+                  onChange={handleChange}
+                  required
+                /&#62;
+              &#60;/div&#62;
+
+              {/* Password input */}
+              &#60;div className=&#34;relative group&#34;&#62;
+                &#60;input
+                  id=&#34;password&#34;
+                  className=&#34;w-full px-4 py-4 bg-yellow-100 dark:bg-yellow-200/20 rounded-2xl text-black dark:text-white font-thin placeholder-yellow-400 focus:outline-none transition-all duration-200 backdrop-blur-sm input-focus&#34;
+                  placeholder=&#34;Password&#34;
+                  type=&#34;password&#34;
+                  value={formData.password || &#34;&#34;}
+                  onChange={handleChange}
+                  required
+                /&#62;
+              &#60;/div&#62;
+
+              {/* Submit button */}
+              &#60;button
+                type=&#34;submit&#34;
+                disabled={loading}
+                className=&#34;w-full py-4 dark:bg-yellow-200 bg-black text-yellow-200 dark:text-black font-thin rounded-xl transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed relative overflow-hidden&#34;
+              &#62;
+                {loading ? (
+                  &#60;div className=&#34;flex items-center justify-center&#34;&#62;
+                    &#60;div className=&#34;w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin mr-2&#34;&#62;&#60;/div&#62;
+                    Signing In...
+                  &#60;/div&#62;</pre>
+          </div>
+          
+          <div class="clone-item">
+            <div class="clone-info">
+              client\src\pages\SignIn.jsx (Line 278:41 - Line 285:2),
+              client\src\pages\SignUp.jsx (Line 286:24 - Line 293:2)
+            </div>
+            <div>
+              <button class="toggle-btn" onclick="toggle('code-jsx-16')">Show code</button>
+            </div>
+            <pre id="code-jsx-16" class="code-block">              {error ? error.message || &#34;Something went wrong!&#34; : &#34;&#34;}
+            &#60;/p&#62;
+          &#60;/div&#62;
+        &#60;/div&#62;
+      &#60;/div&#62;
+    &#60;/div&#62;
+  );
+}</pre>
+          </div>
+          
+        </div>
+      </section>
+    </div>
+    
+    
+  </div>
+
+  <div class="footer">
+    <p>Generated by <a href="https://jscpd.dev" target="_blank">jscpd</a> v0.1.7 by <a href="https://github.com/kucherenko" target="_blank">Andrey Kucherenko</a></p>
+    <p><a href="https://www.npmjs.com/package/jscpd" target="_blank"><img src="https://img.shields.io/npm/dw/jscpd.svg?style=flat-square" alt="npm weekly downloads" style="vertical-align: middle;"></a></p>
+  </div>
+
+  <script>
+    function toggle(id) {
+      var el = document.getElementById(id);
+      if (el) { el.classList.toggle('visible'); }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+\doxysection{Book Class Reference}
+\hypertarget{class_book}{}\label{class_book}\index{Book@{Book}}
+
+
+Represents a single book in the library catalog.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_book_a6a58578995e9b3e77d298c0920e70a46}{Book}} (String title, String author, String isbn)
+\begin{DoxyCompactList}\small\item\em Constructs a new \doxylink{class_book}{Book}. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{class_book_a71745ca59c0db6c376e9f398b0b16ddb}{get\+Title}} ()
+\item 
+String \mbox{\hyperlink{class_book_a161fc83fc6a0117fcf1874fee9fa7939}{get\+Author}} ()
+\item 
+String \mbox{\hyperlink{class_book_a7875ad97591a070fb39d47c0181e8e42}{get\+Isbn}} ()
+\item 
+boolean \mbox{\hyperlink{class_book_aa2f6377bb2d4bcb3ebafe870d8a3b754}{is\+Checked\+Out}} ()
+\item 
+void \mbox{\hyperlink{class_book_a6ebe5e7109f14fa0d7690bc3c5fc597c}{check\+Out}} ()
+\begin{DoxyCompactList}\small\item\em Marks the book as checked out. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_book_ad563e6dde5f28f547a80a2ea9d7b3d97}{return\+Book}} ()
+\begin{DoxyCompactList}\small\item\em Marks the book as returned/available. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{class_book_a6efb5d95315529d5988e6cc407d3fd24}{describe}} ()
+\begin{DoxyCompactList}\small\item\em Builds a human-\/readable summary of the book. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a single book in the library catalog. 
+
+Stores basic bibliographic details and tracks whether the book is currently checked out. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_book_a6a58578995e9b3e77d298c0920e70a46}\label{class_book_a6a58578995e9b3e77d298c0920e70a46} 
+\index{Book@{Book}!Book@{Book}}
+\index{Book@{Book}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{Book()}{Book()}}
+{\footnotesize\ttfamily Book.\+Book (\begin{DoxyParamCaption}\item[{String}]{title,  }\item[{String}]{author,  }\item[{String}]{isbn }\end{DoxyParamCaption})}
+
+
+
+Constructs a new \doxylink{class_book}{Book}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & the book\textquotesingle{}s title \\
+\hline
+{\em author} & the book\textquotesingle{}s author \\
+\hline
+{\em isbn} & the book\textquotesingle{}s ISBN number \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_book_a6ebe5e7109f14fa0d7690bc3c5fc597c}\label{class_book_a6ebe5e7109f14fa0d7690bc3c5fc597c} 
+\index{Book@{Book}!checkOut@{checkOut}}
+\index{checkOut@{checkOut}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{checkOut()}{checkOut()}}
+{\footnotesize\ttfamily void Book.\+check\+Out (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Marks the book as checked out. 
+
+\Hypertarget{class_book_a6efb5d95315529d5988e6cc407d3fd24}\label{class_book_a6efb5d95315529d5988e6cc407d3fd24} 
+\index{Book@{Book}!describe@{describe}}
+\index{describe@{describe}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{describe()}{describe()}}
+{\footnotesize\ttfamily String Book.\+describe (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Builds a human-\/readable summary of the book. 
+
+NOTE\+: this method duplicates formatting logic that also appears in \doxylink{class_library_a59ab5e21679c8e6d75b27991d6815010}{Library.\+print\+Catalog()} -- a good refactoring target in IntelliJ (Extract Method / reuse this instead).
+
+\begin{DoxyReturn}{Returns}
+formatted string with title, author, and status 
+\end{DoxyReturn}
+\Hypertarget{class_book_a161fc83fc6a0117fcf1874fee9fa7939}\label{class_book_a161fc83fc6a0117fcf1874fee9fa7939} 
+\index{Book@{Book}!getAuthor@{getAuthor}}
+\index{getAuthor@{getAuthor}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{getAuthor()}{getAuthor()}}
+{\footnotesize\ttfamily String Book.\+get\+Author (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+the author of the book 
+\end{DoxyReturn}
+\Hypertarget{class_book_a7875ad97591a070fb39d47c0181e8e42}\label{class_book_a7875ad97591a070fb39d47c0181e8e42} 
+\index{Book@{Book}!getIsbn@{getIsbn}}
+\index{getIsbn@{getIsbn}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{getIsbn()}{getIsbn()}}
+{\footnotesize\ttfamily String Book.\+get\+Isbn (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+the ISBN of the book 
+\end{DoxyReturn}
+\Hypertarget{class_book_a71745ca59c0db6c376e9f398b0b16ddb}\label{class_book_a71745ca59c0db6c376e9f398b0b16ddb} 
+\index{Book@{Book}!getTitle@{getTitle}}
+\index{getTitle@{getTitle}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{getTitle()}{getTitle()}}
+{\footnotesize\ttfamily String Book.\+get\+Title (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+the title of the book 
+\end{DoxyReturn}
+\Hypertarget{class_book_aa2f6377bb2d4bcb3ebafe870d8a3b754}\label{class_book_aa2f6377bb2d4bcb3ebafe870d8a3b754} 
+\index{Book@{Book}!isCheckedOut@{isCheckedOut}}
+\index{isCheckedOut@{isCheckedOut}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{isCheckedOut()}{isCheckedOut()}}
+{\footnotesize\ttfamily boolean Book.\+is\+Checked\+Out (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+true if the book is currently checked out 
+\end{DoxyReturn}
+\Hypertarget{class_book_ad563e6dde5f28f547a80a2ea9d7b3d97}\label{class_book_ad563e6dde5f28f547a80a2ea9d7b3d97} 
+\index{Book@{Book}!returnBook@{returnBook}}
+\index{returnBook@{returnBook}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{returnBook()}{returnBook()}}
+{\footnotesize\ttfamily void Book.\+return\+Book (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Marks the book as returned/available. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{_book_8java}{Book.\+java}}\end{DoxyCompactItemize}
